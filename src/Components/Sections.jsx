@@ -1,12 +1,12 @@
-import React from "react";
 import "./style.css";
+import React from "react";
+import Team from "./Team";
+import Projects from "./Projects";
+import Achivements from "./Achivements";
 import imgMision from "../assets/imgMision.png";
 import calendario from "../assets/icons/calendario.png";
 import miembros from "../assets/icons/miembros.png";
 import talleres from "../assets/icons/talleres.png";
-import Equipo from "./Equipo";
-import Logros from "./Logros";
-import Proyectos from "./Proyectos";
 
 const Sections = () => {
   return (
@@ -41,9 +41,9 @@ const Sections = () => {
           <h2>Talleres</h2>
         </div>
       </div>
-      <Equipo></Equipo>
-      <Logros></Logros>
-      <Proyectos></Proyectos>
+      <Team/>
+      <Achivements/>
+      <Projects/>
     </>
   );
 };
