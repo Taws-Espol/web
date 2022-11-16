@@ -11,7 +11,7 @@ import talleres from "../assets/icons/talleres.png";
 const Sections = () => {
   return (
     <>
-      <div className="flex justify-evenly">
+      <div className="flex justify-between mt-8">
         <div className="flex-col">
           <h1 className="text-tawsBlue font-semibold">
             <span className="text-white">$~</span> Misión
@@ -24,7 +24,7 @@ const Sections = () => {
         </div>
         <img src={imgMision} alt={"Grupo Taws"} />
       </div>
-      <div className="flex justify-evenly text-white">
+      <div className="flex justify-around text-white">
         <div className="flex-col">
           <img src={miembros} alt={"Miembros"} />
           <h2>50+</h2>

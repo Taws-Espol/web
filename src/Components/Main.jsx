@@ -4,11 +4,11 @@ import logo from '../assets/logoTaws1.png';
 
 const Main = () => {
 	return (
-		<div className="Main flex justify-evenly">
+		<div className="Main flex justify-between">
 			<div className="flex-col">
-				<h1 className="text-white font-semibold">BE DIFFERENT</h1>
-				<h1 className="text-tawsBlue font-bold">BE TAWS</h1>
-				<p className="text-white w-96">
+				<h1 className="text-white font-semibold text-5xl">BE DIFFERENT</h1>
+				<h1 className="text-tawsBlue font-bold text-5xl">BE TAWS</h1>
+				<p className="text-white w-96 my-4">
 					Taws es un grupo estudiantil politécnico que busca contribuir a la
 					formación integral de jóvenes investigadores precursores en el
 					desarrollo de tecnologías de la información.

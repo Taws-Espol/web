@@ -15,13 +15,13 @@ const Team = () => {
             <div className="flex-col">
                 <h2 className='text-white'>{mentor.nombre}</h2>
                 <h3 className='text-cargo'>{mentor.cargo}</h3>
-                <p>{mentor.descripcion}</p>
+                <p className='text-white'>{mentor.descripcion}</p>
             </div>
         </div>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4">
             {teams.map((persona)=>{
-                return <div className='flex-col m-0 text-center'>
-                        <img className='m-0' src={persona.img}/>
+                return <div className='flex-col text-center'>
+                        <img src={persona.img}/>
                         <h2 className='text-white'>{persona.nombre}</h2>
                         <h3 className='text-cargo'>{persona.cargo}</h3>
                        </div>
