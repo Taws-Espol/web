@@ -4,11 +4,11 @@ import logo from '../assets/logoTaws1.png';
 
 const Main = () => {
 	return (
-		<div className="Main flex justify-between">
+		<div className="Main grid grid-cols-2">
 			<div className="flex-col">
 				<h1 className="text-white font-semibold text-5xl">BE DIFFERENT</h1>
 				<h1 className="text-tawsBlue font-bold text-5xl">BE TAWS</h1>
-				<p className="text-white w-96 my-4">
+				<p className="text-white my-4 text-xl">
 					Taws es un grupo estudiantil politécnico que busca contribuir a la
 					formación integral de jóvenes investigadores precursores en el
 					desarrollo de tecnologías de la información.
@@ -19,7 +19,7 @@ const Main = () => {
 					</button>
 				</a>
 			</div>
-			<img src={logo} alt={'Logo Taws'} />
+			<img width={"200"} className='justify-self-center' src={logo} alt={'Logo Taws'} />
 		</div>
 	);
 };

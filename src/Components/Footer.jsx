@@ -4,7 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
     return(
-        <div className='Footer'>
+        <div className='Footer mt-8'>
             <div className="grid grid-cols-2">
                 <div className="contacto">
                     <h1 className='text-white font-bold text-4xl'>Contáctanos</h1>

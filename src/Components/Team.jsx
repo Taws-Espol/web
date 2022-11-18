@@ -7,7 +7,7 @@ const mentor = teams.shift();
 const Team = () => {
     return(
         <>
-        <h1 className="text-tawsBlue font-semibold">
+        <h1 className="text-tawsBlue font-semibold text-4xl mt-8">
         <span className="text-white">$~ </span>Equipo de liderazgo 2022-23
         </h1>
         <div className="flex">
@@ -20,7 +20,7 @@ const Team = () => {
         </div>
         <div className="grid grid-cols-4">
             {teams.map((persona)=>{
-                return <div className='flex-col text-center'>
+                return <div className='flex-col justify-center text-center'>
                         <img src={persona.img}/>
                         <h2 className='text-white'>{persona.nombre}</h2>
                         <h3 className='text-cargo'>{persona.cargo}</h3>

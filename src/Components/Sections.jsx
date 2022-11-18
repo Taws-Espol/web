@@ -11,9 +11,9 @@ import talleres from "../assets/icons/talleres.png";
 const Sections = () => {
   return (
     <>
-      <div className="flex justify-between mt-8">
+      <div className="Sections grid grid-cols-2 mt-8">
         <div className="flex-col">
-          <h1 className="text-tawsBlue font-semibold">
+          <h1 className="text-tawsBlue font-semibold text-4xl">
             <span className="text-white">$~</span> Misión
           </h1>
           <p className="text-white w-96">
@@ -22,23 +22,23 @@ const Sections = () => {
             tecnologías informáticas.
           </p>
         </div>
-        <img src={imgMision} alt={"Grupo Taws"} />
+        <img width={"200"} className='justify-self-center' src={imgMision} alt={"Grupo Taws"} />
       </div>
-      <div className="flex justify-around text-white">
+      <div className="flex justify-around text-white mt-8">
         <div className="flex-col">
-          <img src={miembros} alt={"Miembros"} />
-          <h2>50+</h2>
-          <h2>Miembros</h2>
+          <img width={"50"} src={miembros} alt={"Miembros"} />
+          <h2 className="text-4xl">50+</h2>
+          <h2 className="text-xl">Miembros</h2>
         </div>
         <div className="flex-col">
-          <img src={calendario} alt={"Calendario"} />
-          <h2>05+</h2>
-          <h2>Eventos</h2>
+          <img width={"50"} src={calendario} alt={"Calendario"} />
+          <h2 className="text-4xl">05+</h2>
+          <h2 className="text-xl">Eventos</h2>
         </div>
         <div className="flex-col">
-          <img src={talleres} alt={"Talleres"} />
-          <h2>100+</h2>
-          <h2>Talleres</h2>
+          <img width={"50"} src={talleres} alt={"Talleres"} />
+          <h2 className="text-4xl">100+</h2>
+          <h2 className="text-xl">Talleres</h2>
         </div>
       </div>
       <Team/>
