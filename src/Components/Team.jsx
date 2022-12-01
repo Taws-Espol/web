@@ -10,9 +10,9 @@ const Team = () => {
         <h1 className="text-tawsBlue font-semibold text-4xl mt-8">
         <span className="text-white">$~ </span>Equipo de liderazgo 2022-23
         </h1>
-        <div className="flex">
-            <img src={mentor.img}/>
-            <div className="flex-col">
+        <div className="flex mt-4">
+            <img className='mx-auto rounded-full' src={mentor.img}/>
+            <div className="flex-col py-4 pr-4">
                 <h2 className='text-white'>{mentor.nombre}</h2>
                 <h3 className='text-cargo'>{mentor.cargo}</h3>
                 <p className='text-white'>{mentor.descripcion}</p>
@@ -20,8 +20,8 @@ const Team = () => {
         </div>
         <div className="grid grid-cols-4">
             {teams.map((persona)=>{
-                return <div className='flex-col justify-center text-center'>
-                        <img src={persona.img}/>
+                return <div className='text-center mt-8'>
+                        <img className='w-5/6 mx-auto rounded-full' src={persona.img}/>
                         <h2 className='text-white'>{persona.nombre}</h2>
                         <h3 className='text-cargo'>{persona.cargo}</h3>
                        </div>
