@@ -10,7 +10,7 @@ function App() {
     <div className="App bg-taws">
       <Dots/>
       <div className='Contenedor w-10/12 mx-auto'>
-        <Navbar/>
+        <Navbar item='inicio'/>
         <Main/>
         <Sections/>
         <Footer/>
