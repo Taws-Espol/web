@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cards{
+    min-height: 61vh;
+    overflow-y: scroll;
+    height: 400px;
+}
+.scrollbar::-webkit-scrollbar-track {
+    background: white;
+    scrollbar-width: thin;
+    scrollbar-color: blue blue;
+    border-radius: 6px;
+    border: 3px solid white;
+}

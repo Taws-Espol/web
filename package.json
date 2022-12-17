@@ -20,6 +20,7 @@
         "@types/react": "^18.0.22",
         "@types/react-dom": "^18.0.7",
         "@vitejs/plugin-react": "^2.2.0",
+        "tailwind-scrollbar": "^2.0.1",
         "vite": "^3.2.0"
     }
 }
