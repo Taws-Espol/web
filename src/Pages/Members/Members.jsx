@@ -22,7 +22,7 @@ function Cards() {
     miembros.push(i);
   }
   return (
-    <div className="grid grid-rows-1 grid-flow-col overflow-x-scroll scrollbar py-5 gap-3">
+    <div className="grid grid-rows-1 grid-flow-col overflow-x-scroll cursor-pointer scrollbar scroll-container py-5 gap-3 ease-in-out">
       {miembros.map((item) => {
         return (
           <div className="bg-white card">

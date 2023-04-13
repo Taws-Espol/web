@@ -10,8 +10,8 @@ const Navbar = (props) => {
                     <div><a className={`text-white font-medium ${props.item === 'inicio' ? 'border-b-2':""}`} href='/' >Inicio</a></div>
                     <div><a className={`text-white font-medium ${props.item === 'miembros' ? 'border-b-2':""}`} href='/miembros'>Miembros</a></div>
                     <div><a className={`text-white font-medium ${props.item === 'proyectos' ? 'border-b-2':""}`} href='/proyectos'>Proyectos</a></div>
-                    <div><a className={`text-white font-medium ${props.item === 'inicio' ? 'border-b-2':""}`} href='/'>Eventos</a></div>
-                    <div><a className={`text-white font-medium ${props.item === 'inicio' ? 'border-b-2':""}`} href='/'>Blog</a></div>
+                    <div><a className={`text-white font-medium ${props.item === 'eventos' ? 'border-b-2':""}`} href='/'>Eventos</a></div>
+                    <div><a className={`text-white font-medium ${props.item === 'blog' ? 'border-b-2':""}`} href='/'>Blog</a></div>
                 </div>
             </div>
         </div>
