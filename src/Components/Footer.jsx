@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 const Footer = () => {
     return(
         <div className='Footer mt-8'>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 max-sm:grid-cols-1 max-sm:gap-10" >
                 <div className="contacto">
                     <h1 className='text-white font-bold text-4xl pb-2'>Contáctanos</h1>
                     <h2 className='text-white'>Bloque 15 - FIEC, Guayaquil 090150, Ecuador<br></br>taws@espol.edu.ec</h2>
