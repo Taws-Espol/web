@@ -11,7 +11,7 @@ const Projects = () => {
                     <h2 className='text-xl' >Nombre de Proyecto</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim nulla sit scelerisque hac sit diam hac vitae.</p>
                     <a href="">
-					<button className="bg-tawsBlue rounded-full p-2 mt-2 ml-0.5 font-semibold text-black">
+					<button className="bg-tawsBlue rounded-full p-2  mt-2 ml-0.5 font-semibold text-black">
 						Ver más
 					</button>
 				    </a>

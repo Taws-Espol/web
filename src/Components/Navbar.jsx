@@ -10,7 +10,7 @@ const Navbar = (props) => {
     { name: "Miembros", link: "/miembros", selected: "miembros" },
     { name: "Proyectos", link: "/proyectos", selected: "proyectos" },
     { name: "Eventos", link: "/", selected: "eventos" },
-    { name: "Blog", link: "/", selected: "blog" },
+    { name: "Blog", link: "https://medium.com/taws", selected: "blog" },
   ];
   return (
     <div className="Navbar">
