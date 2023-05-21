@@ -11,7 +11,7 @@ import talleres from "../assets/icons/talleres.png";
 const Sections = () => {
   return (
     <>
-      <div className="Sections grid grid-cols-2 mt-8 max-sm:grid-cols-1">
+      {/* <div className="Sections grid grid-cols-2 mt-8 max-sm:grid-cols-1">
         <div className="flex-col">
           <h1 className="text-tawsBlue font-semibold text-4xl">
             <span className="text-white">$~</span> Misión
@@ -23,7 +23,7 @@ const Sections = () => {
           </p>
         </div>
         <img width={"200"} className='justify-self-center' src={imgMision} alt={"Grupo Taws"} />
-      </div>
+      </div> */}
       <div className="flex justify-around text-white mt-8 max-sm:flex-col max-sm:items-center max-sm:gap-9">
         <div className="flex-col">
           <img width={"50"} src={miembros} alt={"Miembros"} />
