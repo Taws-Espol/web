@@ -1,8 +1,8 @@
 import './App.css'
-import Main from './components/Main'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import Sections from './components/Sections'
+import Main from './Components/Main'
+import Footer from './Components/Footer'
+import Navbar from './Components/Navbar'
+import Sections from './Components/Sections'
 import Dots from './Components/DotPattern'
 
 function App() {

@@ -1,7 +1,6 @@
 import "./style.css";
 import React, { useState } from "react";
-import { IconMenu2 } from "@tabler/icons-react";
-import { IconX } from "@tabler/icons-react";
+import { IconMenu2, IconX } from "@tabler/icons-react";
 
 const Navbar = (props) => {
   let [open, setOpen] = useState(false);
@@ -10,7 +9,7 @@ const Navbar = (props) => {
     { name: "Miembros", link: "/miembros", selected: "miembros" },
     { name: "Proyectos", link: "/proyectos", selected: "proyectos" },
     { name: "Eventos", link: "/", selected: "eventos" },
-    { name: "Blog", link: "https://medium.com/taws", selected: "blog" },
+    { name: "Blog", link: "https://medium.com/taws", target: '_blank', selected: "blog" },
   ];
   return (
     <div className="Navbar">
@@ -36,6 +35,7 @@ const Navbar = (props) => {
               >
                 <a
                   href={link.link}
+                  target={link.target}
                   className="text-white font-medium hover:text-gray-400 duration-500'"
                 >
                   {link.name}
