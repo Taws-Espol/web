@@ -1,13 +1,13 @@
 import React from "react";
 import "./members.css";
-import Navbar from "../../components/Navbar";
-import Dots from "../../components/DotPattern";
-import Footer from "../../components/Footer";
+import Navbar from "../../Components/Navbar";
+import Dots from "../../Components/DotPattern";
+import Footer from "../../Components/Footer";
 
 function Header() {
   return (
     <div>
-      <h1 className="text-white font-semibold text-5xl uppercase">Miembros</h1>
+      <h1 className="text-white font-semibold text-5xl">Miembros</h1>
       <p className="text-white">
         “Los ordenadores son inútiles. Sólo pueden darte respuestas” - Pablo
         Picasso

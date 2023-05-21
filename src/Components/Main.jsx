@@ -1,6 +1,7 @@
 import './style.css';
 import React from 'react';
 import logo from '../assets/logoTaws1.png';
+import { Link } from 'react-router-dom';
 
 
 const Main = () => {
@@ -15,11 +16,11 @@ const Main = () => {
 					desarrollo de tecnologías de la información.
 				</p>
 				<div className="text-center">
-				<a href='https://www.instagram.com/taws_espol/' target='_blank'>
+				<Link to={"/about"}>
 					<button className="bg-tawsBlue rounded-full p-2 w-3/12 mt-2 ml-0.5 font-semibold">
 						Conoce más
 					</button>
-				</a>
+				</Link>
 				</div>
 			</div>
 		</div>

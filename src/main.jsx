@@ -10,6 +10,8 @@ import App from './App'
 import './index.css';
 import Members from './Pages/Members/Members';
 import Projects from './Pages/Projects/Projects';
+import About from './Pages/About/About';
+
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/proyectos",
     element: <Projects/>,
+  },
+  {
+    path: "/about",
+    element: <About/>,
   },
   {
     path: "/*",

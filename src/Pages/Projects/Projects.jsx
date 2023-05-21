@@ -1,8 +1,8 @@
 import React from "react";
 import "./Projects.css";
-import Navbar from "../../components/Navbar";
-import Dots from '../../components/DotPattern';
-import Footer from '../../components/Footer'
+import Navbar from "../../Components/Navbar";
+import Dots from '../../Components/DotPattern';
+import Footer from '../../Components/Footer'
 
 
 const Projects = () => {

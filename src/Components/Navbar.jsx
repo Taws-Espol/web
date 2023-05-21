@@ -6,15 +6,17 @@ const Navbar = (props) => {
   let [open, setOpen] = useState(false);
   let Links = [
     { name: "Inicio", link: "/", selected: "inicio" },
-    { name: "Miembros", link: "/miembros", selected: "miembros" },
-    { name: "Proyectos", link: "/proyectos", selected: "proyectos" },
+    { name: "Nosotros", link: "/about", selected: "about" },
     { name: "Eventos", link: "/", selected: "eventos" },
+    { name: "Proyectos", link: "/proyectos", selected: "proyectos" },
+    { name: "Quienes Somos", link: "/miembros", selected: "miembros" },
     { name: "Blog", link: "https://medium.com/taws", target: '_blank', selected: "blog" },
+
   ];
   return (
     <div className="Navbar">
       <div className="flex justify-center p-8 items-center">
-        <div className="max-md:flex max-md:justify-evenly w-4/6 p-2 bg-tawsLight rounded-full">
+        <div className="max-md:flex max-md:justify-evenly w-4/5 p-2 bg-tawsLight rounded-full">
           <span
             className="text-white sm:hidden w-full text-center"
             onClick={() => setOpen(!open)}
@@ -31,7 +33,7 @@ const Navbar = (props) => {
                 key={link.name}
                 className={`${
                   props.item === link.selected ? "border-b-2" : ""
-                } text-xl md:my-0 my-7`}
+                }  md:my-0 my-7`}
               >
                 <a
                   href={link.link}
