@@ -12,4 +12,5 @@ Run `npm run dev` for a dev server.
 ```
 Geovanny Rojas
 David Perez
+Roberto Patiño
 ```
