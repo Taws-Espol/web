@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "./projects.css";
 import Navbar from "../../Components/Navbar";
 import Dots from '../../Components/DotPattern';
 import Footer from '../../Components/Footer'
