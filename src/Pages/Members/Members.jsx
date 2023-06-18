@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./members.css";
 import Navbar from "../../Components/Navbar";
 import Dots from "../../Components/DotPattern";
 import Footer from "../../Components/Footer";
+import {miembros} from "../../data/miembros";
 
 function Header() {
   return (
@@ -17,22 +18,26 @@ function Header() {
 }
 
 function Cards() {
-  let miembros = [];
-  for (let i = 0; i < 10; i++) {
-    miembros.push(i);
-  }
-  return (
+  const [textoBusqueda, setTextoBusqueda] = useState('');
+  const [resultados, setResultados] = useState([]);
+
+  const handleInputChange = (event) => {
+    setTextoBusqueda(event.target.value);
+  };
+
+  return (<>
+    <input
+      type="text"
+      value={textoBusqueda}
+      onChange={handleInputChange}
+      placeholder="Buscar..."
+    />
     <div className="grid grid-rows-1 grid-flow-col overflow-x-scroll cursor-pointer scrollbar scroll-container py-5 gap-3 ease-in-out">
       {miembros.map((item) => {
         return (
           <div className="bg-white card">
-            <img
-              className="w-full"
-              src = {`https://picsum.photos/id/${item}/300`}
-              alt="Sunset in the mountains"
-            />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Miembro 1</div>
+              <div className="font-bold text-xl mb-2">{item}</div>
               <p className="text-gray-700 text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Voluptatibus quia, nulla! Maiores et perferendis eaque,
@@ -54,10 +59,13 @@ function Cards() {
         );
       })}
     </div>
+    </>
   );
 }
 
 const Members = () => {
+
+
   return (
     <div className="Members bg-taws">
       <Dots />

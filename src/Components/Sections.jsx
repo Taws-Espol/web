@@ -3,7 +3,6 @@ import React from "react";
 import Team from "./Team";
 import Projects from "./Projects";
 import Achivements from "./Achivements";
-import imgMision from "../assets/imgMision.png";
 import calendario from "../assets/icons/calendario.png";
 import miembros from "../assets/icons/miembros.png";
 import talleres from "../assets/icons/talleres.png";

@@ -1,5 +1,7 @@
 import React from 'react'
 import './style.css'
+import { logros } from '../data/logros';
+
 
 
 const Achivements = () => {
@@ -11,57 +13,28 @@ const Achivements = () => {
         <div class="wrapper">
           <div class="center-line">
           </div>
-          <div class="row-1">
-            <h3 className="text-white font-bold text-2xl">2022</h3>
-          </div>
-          <div class="row row-2">
-            <section>
-              <span class="icon fas fa-star bg-tawsLight">😎</span>
-              <div class="details">
-                <span class="title text-white">FIEC Excelencia Académica 2022-I</span>
+          {
+            logros.map((logro)=>{
+              return <div>
+                <div class="row-1">
+                  <h3 className="text-white font-bold text-2xl">{logro.year}</h3>
+                </div>
+                {
+                  logro.logros.map((obj)=>{
+                    return  <div class="row row-2">
+                    <section>
+                      <span class="icon fas fa-globe bg-tawsLight">{obj.icon}</span>
+                      <div class="details">
+                        <span class="title text-white">{obj.title}</span>
+                      </div>
+                      <p className='text-white'>{obj.description}</p>
+                    </section>
+                  </div>
+                  })
+                }
               </div>
-              <p className='text-white'>Carlos Meneses - Computación</p>
-            </section>
-          </div>
-          <div class="row row-2">
-            <section>
-              <span class="icon fas fa-globe bg-tawsLight">LOGO</span>
-              <div class="details">
-                <span class="title text-white">FIEC Excelencia Académica 2022-I</span>
-              </div>
-              <p className='text-white'>Carlos Meneses - Computación</p>
-            </section>
-          </div>
-          <div class="row row-2">
-            <section>
-              <span class="icon fas fa-map-marker-alt bg-tawsLight">👀</span>
-              <div class="details">
-                <span class="title text-white">FIEC Excelencia Académica 2022-I</span>
-              </div>
-              <p className='text-white'>Carlos Meneses - Computación</p>
-            </section>
-          </div>
-          <div class="row-1">
-            <h3 className="text-white font-bold text-2xl">2021</h3>
-          </div>
-          <div class="row row-2">
-            <section>
-              <span class="icon fas fa-map-marker-alt bg-tawsLight">👀</span>
-              <div class="details">
-                <span class="title text-white">FIEC Excelencia Académica 2022-I</span>
-              </div>
-              <p className='text-white'>Carlos Meneses - Computación</p>
-            </section>
-          </div>
-          <div class="row row-2">
-            <section>
-              <span class="icon fas fa-map-marker-alt bg-tawsLight">👀</span>
-              <div class="details">
-                <span class="title text-white">FIEC Excelencia Académica 2022-I</span>
-              </div>
-              <p className='text-white'>Carlos Meneses - Computación</p>
-            </section>
-          </div>
+            })
+          }
         </div>
       </div>
     );
