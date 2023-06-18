@@ -4,7 +4,7 @@ name: Implementar contenido estático a Pages
 on:
   # Se ejecuta en anotaciones dirigidas a la rama predeterminada
   push:
-    branches: ['main']
+    branches: ['master']
 
   # Te permite ejecutar este flujo de trabajo manualmente desde la pestaña Acciones
   workflow_dispatch:
@@ -33,7 +33,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 16
           cache: 'npm'
       - name: Install dependencies
         run: npm install
