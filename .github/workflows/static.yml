@@ -1,27 +1,28 @@
-# Flujo de trabajo simple para implementar contenido estático en Github Pages
-name: Implementar contenido estático a Pages
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
 
 on:
-  # Se ejecuta en anotaciones dirigidas a la rama predeterminada
+  # Runs on pushes targeting the 'react-deploy' branch
   push:
-    branches: ['master']
+    branches:
+      - react-deploy
 
-  # Te permite ejecutar este flujo de trabajo manualmente desde la pestaña Acciones
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Establece los permisos de GITHUB_TOKEN para permitir la implementación en GitHub Pages
+# Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Permite una implementación simultánea
+# Allow one concurrent deployment
 concurrency:
   group: 'pages'
   cancel-in-progress: true
 
 jobs:
-  # Trabajo de implementación único ya que solo estamos implementando
+  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -30,10 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: react-deploy # Checkout the 'react-deploy' branch
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           cache: 'npm'
       - name: Install dependencies
         run: npm install
@@ -44,9 +47,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Subir repositorio dist
+          # Upload dist repository
           path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
