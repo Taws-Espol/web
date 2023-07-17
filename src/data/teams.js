@@ -4,7 +4,7 @@ export const teams = [
         cargo: "Mentora",
         estructura_organizacional: "Mentor",
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tortor dictumst ridiculus malesuada at maecenas.",
-        img: "https://www.fiec.espol.edu.ec/sites/fiec.espol.edu.ec/files/cvaca_0.jpg"
+        img: "https://www.fiec.espol.edu.ec/sites/fiec.espol.edu.ec/files/Carmen%20Vaca.png"
     },
     {
         nombre: "Axcel Espinoza",
@@ -49,7 +49,7 @@ export const teams = [
         img: "https://media.licdn.com/dms/image/C5603AQH4p3xtJjfjHg/profile-displayphoto-shrink_400_400/0/1618771098677?e=1692835200&v=beta&t=IHU_cCvJJoDXyETDGaUS4y186lQisZt-NwsLCfIRhxY"
     },
     {
-        nombre: "Maria Moyano",
+        nombre: "María Moyano",
         cargo: "Líder Redes",
         estructura_organizacional: "Lider",
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tortor dictumst ridiculus malesuada at maecenas.",

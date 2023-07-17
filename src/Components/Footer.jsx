@@ -4,14 +4,14 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
     return(
-        <div className='Footer mt-8'>
-            <div className="grid grid-cols-2 max-sm:grid-cols-1 max-sm:gap-10" >
+        <div className='Footer mt-24'>
+            <div className="grid grid-cols-2 max-sm:grid-cols-1 max-sm:gap-10 pb-6" >
                 <div className="contacto">
-                    <h1 className='text-white font-bold text-4xl pb-2'>Contáctanos</h1>
+                    <h1 className='text-white font-bold text-4xl pb-4'>Contáctanos</h1>
                     <h2 className='text-white'>Bloque 15 - FIEC, Guayaquil 090150, Ecuador<br></br>taws@espol.edu.ec</h2>
                 </div>
                 <div className="redes">
-                    <h1 className='text-white font-bold text-4xl pb-2'>Redes Sociales</h1>
+                    <h1 className='text-white font-bold text-4xl pb-4'>Redes Sociales</h1>
                     <ul className="flex">
                         <li className='mr-4'><SocialIcon url="https://twitter.com/TawsEspol" fgColor="#fff"/></li>
                         <li className='mr-4'><SocialIcon url="https://www.facebook.com/tawsespol" fgColor="#fff"/></li>

@@ -6,6 +6,7 @@ import Achivements from "./Achivements";
 import calendario from "../assets/icons/calendario.png";
 import miembros from "../assets/icons/miembros.png";
 import talleres from "../assets/icons/talleres.png";
+import { BsPersonVideo3, BsCalendarEvent, BsPersonUp } from "react-icons/bs"
 
 const Sections = () => {
   return (
@@ -23,20 +24,20 @@ const Sections = () => {
         </div>
         <img width={"200"} className='justify-self-center' src={imgMision} alt={"Grupo Taws"} />
       </div> */}
-      <div className="flex justify-around text-white mt-8 max-sm:flex-col max-sm:items-center max-sm:gap-9">
+      <div className="flex justify-around text-white my-16 max-sm:flex-col max-sm:items-center max-sm:gap-9">
         <div className="flex-col">
-          <img width={"50"} src={miembros} alt={"Miembros"} />
-          <h2 className="text-4xl">50+</h2>
+          <BsPersonUp size={50}/>
+          <h2 className="text-4xl mt-2">50+</h2>
           <h2 className="text-xl">Miembros</h2>
         </div>
         <div className="flex-col">
-          <img width={"50"} src={calendario} alt={"Calendario"} />
-          <h2 className="text-4xl">05+</h2>
+          <BsCalendarEvent size={50}/>
+          <h2 className="text-4xl mt-2">05+</h2>
           <h2 className="text-xl">Eventos</h2>
         </div>
         <div className="flex-col">
-          <img width={"50"} src={talleres} alt={"Talleres"} />
-          <h2 className="text-4xl">100+</h2>
+          <BsPersonVideo3 size={50}/>
+          <h2 className="text-4xl mt-2">100+</h2>
           <h2 className="text-xl">Talleres</h2>
         </div>
       </div>
