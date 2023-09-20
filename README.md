@@ -16,4 +16,5 @@ David Perez
 Roberto Patiño
 Axcel Espinoza
 Fernando Bucheli
+Jorge Apolo
 ```
