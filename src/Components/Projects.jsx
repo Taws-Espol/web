@@ -9,7 +9,7 @@ const Projects = () => {
             <h1 className='text-tawsBlue font-semibold text-4xl mt-24 mb-4'>
                 <span className='text-white'>$~</span> Proyectos
             </h1>
-            <div className="grid grid-cols-2 max-sm:grid-cols-1">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 { projects.map((project) => {
                     return <div className="mx-12 flex-col py-8 text-white">
                     <span class="icon2 fas fa-globe bg-tawsLight flex items-center justify-center">
