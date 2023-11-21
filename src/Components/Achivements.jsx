@@ -23,7 +23,7 @@ const Achivements = () => {
                   logro.logros.map((obj)=>{
                     return  <div class="row row-2">
                     <section>
-                      <span class="icon fas fa-globe bg-tawsLight">{<BsAward size={30} class="flex items-center"/>}</span>
+                      <span class="icon fas fa-globe bg-tawsLight my-4">{<BsAward size={30} class="flex items-center"/>}</span>
                       <div class="details">
                         <span class="title text-white">{obj.title}</span>
                       </div>
