@@ -13,9 +13,9 @@ const Footer = () => {
                 <div className="redes">
                     <h1 className='text-white font-bold text-4xl pb-4'>Redes Sociales</h1>
                     <ul className="flex">
-                        <li className='mr-4'><SocialIcon url="https://twitter.com/TawsEspol" fgColor="#fff"/></li>
-                        <li className='mr-4'><SocialIcon url="https://www.facebook.com/tawsespol" fgColor="#fff"/></li>
-                        <li className='mr-4'><SocialIcon url="https://github.com/Taws-Espol" fgColor="#fff"/></li>
+                        <a target="_blank"><li  className='mr-4'><SocialIcon target="_blank" url="https://twitter.com/TawsEspol" fgColor="#fff"/></li></a>
+                         <a target="_blank"><li  className='mr-4'><SocialIcon target="_blank" url="https://www.facebook.com/tawsespol" fgColor="#fff"/></li></a>
+                        <a target="_blank">  <li className='mr-4'><SocialIcon target="_blank" url="https://github.com/Taws-Espol" fgColor="#fff"/></li></a>
                     </ul>
                 </div>
             </div>
