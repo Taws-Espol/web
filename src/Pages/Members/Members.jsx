@@ -63,10 +63,6 @@ function Cards() {
   };
   return (<>
     <div className="flex justify-between items-center">
-      <p className="text-white">
-        “Los ordenadores son inútiles. Sólo pueden darte respuestas” - Pablo
-        Picasso
-      </p>
       <input
         type="text"
         className="px-3 py-2 mb-5 text-gray-700 border rounded-lg focus:outline-none inset-y-0 right-0 "
@@ -74,6 +70,10 @@ function Cards() {
         onChange={handleInputChange}
         placeholder="Buscar..."
       />
+      <p className="text-white">
+        “Los ordenadores son inútiles. Sólo pueden darte respuestas” - Pablo
+        Picasso
+      </p>
     </div>
     <div className="flex flex-wrap justify-center gap-4">
       {currentPageItems.map((item) => (

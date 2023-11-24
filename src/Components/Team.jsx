@@ -21,33 +21,33 @@ const Team = () => {
             <h1 className="text-tawsBlue font-semibold text-4xl mt-28">
                 <span className="text-white">$~ </span>Equipo de liderazgo {anio + "-" + (anio + 1)}
             </h1>
-            <div className="grid grid-cols-1 mt-14 mx-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-14 mx-4 md:mx-12">
                 {mentor.map((persona) => {
-                    return <div className='flex items-center'>
-                        <img className='w-1/6 mx-auto rounded-full' src={persona.img} />
-                        <div className="flex-col px-8 ">
-                            <h2 className='text-white font-bold'>{persona.nombre}</h2>
-                            <p className='text-cargo'>{persona.cargo}</p>
+                    return <div className='flex flex-col items-center mb-8'key={persona.nombre}>
+                        <img className='w-32 h-32 rounded-full mx-auto mb-4' src={persona.img} alt={persona.nombre} />
+                        <div className="text-center">
+                            <h2 className='text-white font-bold mb-2'>{persona.nombre}</h2>
+                            <p className='text-cargo mb.2'>{persona.cargo}</p>
                             <p className='text-white'>{persona.descripcion}</p>
                         </div>
                     </div>
                 })}
             </div >
-            <div className="grid grid-cols-3 mx-14 max-sm:grid-cols-1">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4 xl:grid-cols-5 mt-8 mx-4 md:mx-14">
                 {directiva.map((persona) => {
-                    return <div className='text-center mt-12'>
-                        <img className='w-3/6 mx-auto rounded-full' src={persona.img} />
-                        <h2 className='text-white font-bold mt-4'>{persona.nombre}</h2>
-                        <p className='text-cargo'>{persona.cargo}</p>
+                    return <div className='text-center mb-8'key={persona.nombre}>
+                        <img className='w-32 h-32 rounded-full mx-auto mb-4' src={persona.img} alt={persona.nombre} />
+                        <h2 className='text-white font-bold mb-3'>{persona.nombre}</h2>
+                        <p className='text-cargo mb-2'>{persona.cargo}</p>
                     </div>
                 })}
             </div>
-            <div className="grid grid-cols-5 max-sm:grid-cols-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-8 mx-4 md:mx-14">
                 {lideres.map((persona) => {
-                    return <div className='text-center mt-12'>
-                        <img className='w-4/6 mx-auto rounded-full' src={persona.img} />
-                        <h2 className='text-white font-bold mt-4'>{persona.nombre}</h2>
-                        <p className='text-cargo'>{persona.cargo}</p>
+                    return <div className='text-center mb-8'key={persona.nombre}>
+                        <img className='w-32 h-32 rounded-full mx-auto mb-4' src={persona.img} alt={persona.nombre} />
+                        <h2 className='text-white font-bold mb-2'>{persona.nombre}</h2>
+                        <p className='text-cargo mb-2'>{persona.cargo}</p>
                     </div>
                 })}
             </div>
