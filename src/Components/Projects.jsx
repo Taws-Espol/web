@@ -13,6 +13,7 @@ const Projects = () => {
                     <span class="icon2 fas fa-globe bg-tawsLight">{<BsFileCode size={30} class="flex items-center"/>}</span>
                     <h2 className='text-xl font-bold mb-3 mt-16' >{project.nombre}</h2>
                     <p className='my-3' >{project.descripcion}</p>
+                    <p className='mt-4 bg-blue-600' >Mentor: {project.mentor}</p> 
                     <p className='mt-4 bg-blue-600'>Miembros: {project.miembros}</p>
                     {/* <a href={project.link} target='_blank'>
 					<button className="bg-tawsBlue rounded-full p-2  mt-2 ml-0.5 font-semibold text-black">
