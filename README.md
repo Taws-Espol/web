@@ -17,4 +17,5 @@ Roberto Patiño
 Axcel Espinoza
 Fernando Bucheli
 Jorge Apolo
+Darwin Pacheco
 ```

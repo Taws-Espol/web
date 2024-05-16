@@ -7,10 +7,10 @@ const Navbar = (props) => {
   let Links = [
     { name: "Inicio", link: "/", selected: "inicio" },
     { name: "Nosotros", link: "/about", selected: "about" },
-    { name: "Eventos", link: "/", selected: "eventos" },
+    { name: "Eventos", link: "/eventos", selected: "eventos" },
     // { name: "Proyectos", link: "/proyectos", selected: "proyectos" },
     { name: "Proyectos", link: "https://github.com/Taws-Espol", selected: "proyectos" },
-    { name: "Quienes Somos", link: "/miembros", selected: "miembros" },
+    { name: "Miembros", link: "/miembros", selected: "miembros" },
     { name: "Blog", link: "https://medium.com/taws", target: '_blank', selected: "blog" },
 
   ];

@@ -11,6 +11,7 @@ import './index.css';
 import Members from './Pages/Members/Members';
 import Projects from './Pages/Projects/Projects';
 import About from './Pages/About/About';
+import Events from './Pages/Events/Events';
 
 
 const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/miembros",
     element: <Members/>,
+  },
+  {
+    path: "/eventos",
+    element: <Events/>
   },
   // {
   //   path: "/proyectos",
