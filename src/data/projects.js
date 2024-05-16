@@ -1,34 +1,39 @@
 export const projects = [
     {
-        nombre: "CERRADURA ELECTRÓNICA",
-        descripcion: "Controlar una cerradura eléctrica usando una Raspberry Pi 2 y la aplicación Blynk, una app móvil para proyectos de IoT, con una fuerte presencia en la era tecnológica actual.",
+        nombre: "CLASIFICADOR DE DESECHOS",
+        descripcion: "Clasificador de desechos por imágenes y en tiempo real compuesto de 8 clases diferentes.",
         link: "https://www.google.com",
-        miembros:"Ángel Encalada, Jancarlo Valencia, Nicole Agila"
+        mentor: "Johan Gilces",
+        miembros:"Kevin Fernández, Diego Salazar"
     },
     {
-        nombre: "PLANETAR.IO",
-        descripcion: "Visualización de cuerpos celestes usando gafas de realidad virtual, como una iniciativa innovadora para promover el interés por el estudio interactivo y el aprendizaje pragmático.",
+        nombre: "RENTERS.IO",
+        descripcion: "Aplicación móvil para el registro de inventarios de emprendimientos que requieran llevar un manejo de sus productos y adicional un registro de quienes son los que solicitan el producto.",
         link: "https://www.google.com",
-        miembros:"María Guaranda, Guillermo Bernal, Josué Dávalos, Sebastián Benalcázar"
+        mentor: "Carlos Loja",
+        miembros:"Braulio Rivas, Fernando Álvarez, Francisco Terán"
     },
     {
-        nombre: "TENSORFLOW",
-        descripcion: "Adquirir conocimiento sobre esta herramienta de inteligencia artificial con el fin de dictar talleres informativos sobre la importancia de esta librería y las múltiples aplicaciones en el ámbito laboral y académico.",
+        nombre: "LUCY: ASISTENTE PSICOLÓGICA",
+        descripcion: "Chatbot elaborado con un modelo open source que responde a temas referentes a la salud mental/emocional usando cómo base podcasts de psicología. ",
         link: "https://www.google.com",
-        miembros:"Jonathan Gorotiza, Paulette Vasquez"
+        mentor: "Roberto Patiño",
+        miembros:"Víctor Borbor, George Guerrero"
 
     },
     {
-        nombre: "INVESTIGACIÓN SUPERCIAS",
-        descripcion: "Desarrollo de una investigación que permita determinar un método fiable para la clasificación de empresas familiares en el Ecuador, debido a la carencia de información sobre estos bienes y la necesidad de su legislación por ante la ley.",
+        nombre: "CANCER DETECTION",
+        descripcion: "Sistema de detección de tumores cancerígenos con el uso de aprendizaje supervisado y no supervisado en imágenes de tejido humano.",
         link: "https://www.google.com",
-        miembros:"Pablo Estrada, Josué Dávalos, Paulette Vasquez"
+        mentor: "Geovanny Rojas",
+        miembros:"Erick Lorenzo, Francisco Noriega"
 
     },
     {
-        nombre: "TAWSITE",
-        descripcion: "TAWSite es una aplicación móvil que permite manejar los proyectos y llevar el control de la participación de miembros en actividades del club.",
+        nombre: "SMART CAMPUS ACCESS",
+        descripcion: "Sistema de acceso para usuarios a instalaciones con garitas mediante algoritmos de machine learning y deep learning para registrar y validar placas de los vehículos que ingresan. ",
         link: "https://www.google.com",
-        miembros:" Fabricio Layedra, Galo Castillo, Eileen Sánchez"
+        mentor: "Axcel Espinoza" ,
+        miembros:"Anthony Santacruz, Cristian Intriago, Daniel Rojas"
     },
 ];
