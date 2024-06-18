@@ -11,7 +11,7 @@ const Navbar = (props) => {
     // { name: "Proyectos", link: "/proyectos", selected: "proyectos" },
     { name: "Proyectos", link: "https://github.com/Taws-Espol", selected: "proyectos" },
     { name: "Miembros", link: "/miembros", selected: "miembros" },
-    { name: "Blog", link: "https://medium.com/taws", target: '_blank', selected: "blog" },
+    { name: "Blog", link: "https://medium.com/taws", selected: "blog" },
 
   ];
   return (
@@ -38,7 +38,8 @@ const Navbar = (props) => {
               >
                 <a
                   href={link.link}
-                  target={link.target}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white font-medium hover:text-gray-400 duration-500'"
                 >
                   {link.name}

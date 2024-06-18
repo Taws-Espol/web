@@ -13,9 +13,9 @@ const Footer = () => {
                 <div className="redes">
                     <h1 className='text-white text-center font-bold text-4xl pb-4 md:text-left'>Redes Sociales</h1>
                     <ul className="flex justify-around lg:justify-normal">
-                        <li className='mr-4'><SocialIcon url="https://twitter.com/TawsEspol" fgColor="#fff"/></li>
-                        <li className='mr-4'><SocialIcon url="https://www.facebook.com/tawsespol" fgColor="#fff"/></li>
-                        <li className='mr-4'><SocialIcon url="https://github.com/Taws-Espol" fgColor="#fff"/></li>
+                        <li className='mr-4'><SocialIcon url="https://twitter.com/TawsEspol" target="_blank" rel="noopener noreferrer"fgColor="#fff"/></li>
+                        <li className='mr-4'><SocialIcon url="https://www.facebook.com/tawsespol" target="_blank" rel="noopener noreferrer" fgColor="#fff"/></li>
+                        <li className='mr-4'><SocialIcon url="https://github.com/Taws-Espol" target="_blank" rel="noopener noreferrer" fgColor="#fff"/></li>
                     </ul>
                 </div>
             </div>
