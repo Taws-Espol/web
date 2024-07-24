@@ -1,0 +1,20 @@
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    margin-top: 10px; /* Ajustar según sea necesario */
+}
+.container-custom-image{
+    width: 172.34px;
+    height: 192px;
+}
+.custom-image {
+    object-fit: cover;
+}  
+.custom-vbox {
+    width: 591.66px;
+    height: 168px;
+}
+  

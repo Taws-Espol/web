@@ -26,5 +26,20 @@ export const eventosJSON = {
             "fecha":"2023-06-06",
             "descripcion":"La empresa Jelou desea hablar sobre la IA y sus aplicaciones mercado actual a la vez que desea introducirse a los estudiantes."
         },
+        {
+            "nombre": "Charla - ¿Cómo el Big data actúa como estrategia de marketing efectiva en la industria turística y de viajes?",
+            "fecha": "2024-12-17",
+            "descripcion": "Exploración de herramientas y técnicas en ciencia de datos aplicada."
+        },
+        {
+            "nombre": "Charla - El fin de los títulos: ¿Cómo la IA está cambiando la educación?",
+            "fecha": "2024-12-17",
+            "descripcion": "Aprende los fundamentos de Python en este taller interactivo."
+        },
+        {
+            "nombre": "Charla - NASA Space Apps Challenge",
+            "fecha": "2024-10-25",
+            "descripcion": "Lorem ipsum dolor sit amet."
+        }
     ]
 };
