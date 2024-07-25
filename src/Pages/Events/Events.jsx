@@ -1,6 +1,6 @@
 import React from "react";
 import "../../Components/style.css";
-import { eventosJSON } from "../../data/events";
+import { events } from "../../data/events.json";
 import Navbar from "../../Components/Navbar";
 import Dots from "../../Components/DotPattern";
 import Footer from "../../Components/Footer";
@@ -16,11 +16,11 @@ function Header() {
 function Eventos() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-      {eventosJSON.eventos.map((evento, index) => (
+      {events.map((evento, index) => (
         <div key={index} className="bg-white p-4 rounded shadow-md">
-          <h2 className="text-lg font-semibold">{evento.nombre}</h2>
-          <p className="text-sm text-gray-600">Fecha: {evento.fecha}</p>
-          <p className="text-sm">{evento.descripcion}</p>
+          <h2 className="text-lg font-semibold">{evento.name}</h2>
+          <p className="text-sm text-gray-600">Fecha: {evento.date}</p>
+          <p className="text-sm">{evento.description}</p>
         </div>
       ))}
     </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
-import { logros } from "../data/logros";
+import { achievementsArray } from "../data/achievements.json";
 import { BsAward } from "react-icons/bs";
 
-const Achivements = () => {
+const Achievements = () => {
   return (
     <div className="Achivements">
       <h1 className="text-tawsBlue font-semibold text-4xl mt-24 mb-4">
@@ -11,13 +11,13 @@ const Achivements = () => {
       </h1>
       <div className="wrapper">
         <div className="center-line" />
-        {logros.map((logro, key) => {
+        {achievementsArray.map((achievement, key) => {
           return (
             <div key={key}>
               <div className="row-1">
-                <h3 className="text-white font-bold text-4xl">{logro.year}</h3>
+                <h3 className="text-white font-bold text-4xl">{achievement.year}</h3>
               </div>
-              {logro.logros.map((obj, key) => {
+              {achievement.achievements.map((obj, key) => {
                 return (
                   <div key={key} className="row row-2">
                     <section>
@@ -40,4 +40,4 @@ const Achivements = () => {
   );
 };
 
-export default Achivements;
+export default Achievements;

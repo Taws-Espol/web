@@ -3,7 +3,7 @@ import "./members.css";
 import Navbar from "../../Components/Navbar";
 import Dots from "../../Components/DotPattern";
 import Footer from "../../Components/Footer";
-import { miembros } from "../../data/miembros";
+import { members } from "../../data/members.json";
 
 function Header() {
   return (
@@ -21,7 +21,7 @@ function Cards() {
   const [currentPageItems, setCurrentPageItems] = React.useState([]);
 
   useEffect(() => {
-    setTotalPages(Math.ceil(miembros.length / ITEMS_PER_PAGE));
+    setTotalPages(Math.ceil(members.length / ITEMS_PER_PAGE));
     setCurrentPageItems(getCurrentPageItems());
   }, []);
 
@@ -33,11 +33,11 @@ function Cards() {
     const startIndex = (active - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
 
-    if (endIndex > miembros.length) {
-      return miembros.slice(startIndex, miembros.length);
+    if (endIndex > members.length) {
+      return members.slice(startIndex, members.length);
     }
 
-    return miembros.slice(startIndex, endIndex);
+    return members.slice(startIndex, endIndex);
   };
 
   const handleInputChange = (event) => {
@@ -47,12 +47,12 @@ function Cards() {
   useEffect(() => {
     if (textoBusqueda === "") {
       setCurrentPageItems(getCurrentPageItems());
-      setTotalPages(Math.ceil(miembros.length / ITEMS_PER_PAGE));
+      setTotalPages(Math.ceil(members.length / ITEMS_PER_PAGE));
 
       return;
     }
 
-    const filteredItems = miembros.filter((item) =>
+    const filteredItems = members.filter((item) =>
       item.toLowerCase().includes(textoBusqueda.toLowerCase()),
     );
 

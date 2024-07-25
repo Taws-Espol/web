@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { projects } from "../data/projects";
+import { projects } from "../data/projects.json";
 import { BsFileCode } from "react-icons/bs";
 
 const Projects = () => {
@@ -16,10 +16,10 @@ const Projects = () => {
               <span className="icon2 fas fa-globe bg-tawsLight flex items-center justify-center">
                 <BsFileCode size={30} class="flex items-center" />
               </span>
-              <h2 className="text-xl font-bold mb-3 mt-16">{project.nombre}</h2>
-              <p className="my-3">{project.descripcion}</p>
+              <h2 className="text-xl font-bold mb-3 mt-16">{project.name}</h2>
+              <p className="my-3">{project.description}</p>
               <p className="mt-4 bg-blue-600">Mentor: {project.mentor}</p>
-              <p className="mt-4 bg-blue-600">Miembros: {project.miembros}</p>
+              <p className="mt-4 bg-blue-600">Miembros: {project.members}</p>
             </div>
           );
         })}

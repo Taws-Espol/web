@@ -2,7 +2,7 @@ import "./style.css";
 import React from "react";
 import Team from "./Team";
 import Projects from "./Projects";
-import Achivements from "./Achivements";
+import Achievements from "./Achivements";
 import { BsPersonVideo3, BsCalendarEvent, BsPersonUp } from "react-icons/bs";
 
 const Sections = () => {
@@ -26,7 +26,7 @@ const Sections = () => {
         </div>
       </div>
       <Team />
-      <Achivements />
+      <Achievements />
       <Projects />
     </>
   );
