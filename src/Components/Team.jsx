@@ -2,17 +2,13 @@ import "./style.css";
 import React from "react";
 import { teams } from "../data/teams.json";
 
-const mentor = teams.filter(
-  (member) => member.org_structure === "Mentor",
-);
+const mentor = teams.filter((member) => member.org_structure === "Mentor");
 
 const directiva = teams.filter(
   (member) => member.org_structure === "Directiva",
 );
 
-const lideres = teams.filter(
-  (member) => member.org_structure === "Lider",
-);
+const lideres = teams.filter((member) => member.org_structure === "Lider");
 
 const Team = () => {
   const year = new Date().getFullYear();
@@ -26,10 +22,7 @@ const Team = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-14 mx-4 md:mx-12">
         {mentor.map((person) => {
           return (
-            <div
-              className="flex flex-col items-center mb-8"
-              key={person.name}
-            >
+            <div className="flex flex-col items-center mb-8" key={person.name}>
               <img
                 className="w-32 h-32 rounded-full mx-auto mb-4"
                 src={person.img}

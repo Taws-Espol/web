@@ -15,7 +15,9 @@ const Achievements = () => {
           return (
             <div key={key}>
               <div className="row-1">
-                <h3 className="text-white font-bold text-4xl">{achievement.year}</h3>
+                <h3 className="text-white font-bold text-4xl">
+                  {achievement.year}
+                </h3>
               </div>
               {achievement.achievements.map((obj, key) => {
                 return (
