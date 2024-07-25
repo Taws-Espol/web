@@ -1,4 +1,3 @@
-import "./style.css";
 import React from "react";
 import logo from "../assets/logoTawsBig.png";
 import { Link } from "react-router-dom";

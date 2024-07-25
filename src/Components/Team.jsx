@@ -1,4 +1,3 @@
-import "./style.css";
 import React from "react";
 import { teams } from "../data/teams.json";
 

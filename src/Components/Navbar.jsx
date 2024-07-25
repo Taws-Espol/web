@@ -1,4 +1,3 @@
-import "./style.css";
 import React, { useState } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 

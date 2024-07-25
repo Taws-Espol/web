@@ -1,8 +1,7 @@
-import "./style.css";
 import React from "react";
 import Team from "./Team";
 import Projects from "./Projects";
-import Achievements from "./Achivements";
+import Achievements from "./Achievements";
 import { BsPersonVideo3, BsCalendarEvent, BsPersonUp } from "react-icons/bs";
 
 const Sections = () => {

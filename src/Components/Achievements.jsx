@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 import { achievementsArray } from "../data/achievements.json";
 import { BsAward } from "react-icons/bs";
 
@@ -24,7 +24,7 @@ const Achievements = () => {
                   <div key={key} className="row row-2">
                     <section>
                       <span className="icon fas fa-globe bg-tawsLight">
-                        <BsAward size={30} class="flex items-center" />
+                        <BsAward size={30} className="flex items-center" />
                       </span>
                       <div className="details">
                         <span className="title text-white">{obj.title}</span>

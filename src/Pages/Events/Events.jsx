@@ -1,5 +1,4 @@
 import React from "react";
-import "../../Components/style.css";
 import { events } from "../../data/events.json";
 import Navbar from "../../Components/Navbar";
 import Dots from "../../Components/DotPattern";
