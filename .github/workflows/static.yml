@@ -4,7 +4,7 @@ name: Implementar contenido estático a Pages
 on:
   # Se ejecuta en anotaciones dirigidas a la rama predeterminada
   push:
-    branches: ['master']
+    branches: ["master"]
 
   # Te permite ejecutar este flujo de trabajo manualmente desde la pestaña Acciones
   workflow_dispatch:
@@ -17,7 +17,7 @@ permissions:
 
 # Permite una implementación simultánea
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'npm'
+          cache: "npm"
       - name: Install dependencies
         run: npm install
       - name: Build
@@ -45,8 +45,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Subir repositorio dist
-          path: './dist'
+          path: "./dist"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-

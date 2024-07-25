@@ -3,17 +3,20 @@ import React, { useState } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 
 const Navbar = (props) => {
-  let [open, setOpen] = useState(false);
-  let Links = [
+  const [open, setOpen] = useState(false);
+  const Links = [
     { name: "Inicio", link: "/", selected: "inicio" },
     { name: "Nosotros", link: "/about", selected: "about" },
     { name: "Eventos", link: "/eventos", selected: "eventos" },
-    // { name: "Proyectos", link: "/proyectos", selected: "proyectos" },
-    { name: "Proyectos", link: "https://github.com/Taws-Espol", selected: "proyectos" },
+    {
+      name: "Proyectos",
+      link: "https://github.com/Taws-Espol",
+      selected: "proyectos",
+    },
     { name: "Miembros", link: "/miembros", selected: "miembros" },
     { name: "Blog", link: "https://medium.com/taws", selected: "blog" },
-
   ];
+
   return (
     <div className="Navbar">
       <div className="flex justify-center p-8 items-center">

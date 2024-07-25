@@ -1,9 +1,9 @@
-import React from 'react';
-import '../../Components/style.css';
-import { eventosJSON } from '../../data/events';
-import Navbar from '../../Components/Navbar';
-import Dots from '../../Components/DotPattern';
-import Footer from '../../Components/Footer';
+import React from "react";
+import "../../Components/style.css";
+import { eventosJSON } from "../../data/events";
+import Navbar from "../../Components/Navbar";
+import Dots from "../../Components/DotPattern";
+import Footer from "../../Components/Footer";
 
 function Header() {
   return (

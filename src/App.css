@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.Contenedor{
-    border-left: #1AC8FF 3px solid;
-    padding-left: 30px;
+.Contenedor {
+  border-left: #1ac8ff 3px solid;
+  padding-left: 30px;
 }
