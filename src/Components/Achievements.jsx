@@ -1,5 +1,4 @@
 import React from "react";
-// import "./style.css";
 import { achievementsArray } from "../data/achievements.json";
 import { BsAward } from "react-icons/bs";
 
