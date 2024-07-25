@@ -16,6 +16,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+.Contenedor {
+  border-left: #1ac8ff 3px solid;
+  padding-left: 30px;
+}
+
 .wrapper {
   max-width: 1080px;
   padding: 0 20px;

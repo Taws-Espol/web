@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./members.css";
-import Navbar from "../../Components/Navbar";
-import Dots from "../../Components/DotPattern";
-import Footer from "../../Components/Footer";
+import Navbar from "../../components/Navbar";
+import Dots from "../../components/DotPattern";
+import Footer from "../../components/Footer";
 import { members } from "../../data/members.json";
 
 function Header() {
