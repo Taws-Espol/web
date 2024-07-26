@@ -3,28 +3,28 @@ export const teams = [
         nombre: "Carmen Vaca",
         cargo: "Mentora",
         estructura_organizacional: "Mentor",
-        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tortor dictumst ridiculus malesuada at maecenas.",
+        descripcion: "PhD. en Data Science, Politécnico de Milano",
         img: "https://www.fiec.espol.edu.ec/sites/fiec.espol.edu.ec/files/Carmen%20Vaca.png"
     },
     {
-        nombre: "Axcel Espinoza",
+        nombre: "Víctor Borbor",
         cargo: "Presidente",
         estructura_organizacional: "Directiva",
-        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tortor dictumst ridiculus malesuada at maecenas.",
+        descripcion: "Estudiante de Computación en la ESPOL",
         img: "https://media.licdn.com/dms/image/C4E03AQFylFTkKGWTEA/profile-displayphoto-shrink_400_400/0/1645999692837?e=1692835200&v=beta&t=gpkI5Uhy7BtxrabqiGuK7x15HZinhwmqFbibKu3mydU"
     },
     {
-        nombre: "Geovanny Rojas",
-        cargo: "VP Académico",
+        nombre: "Angelo Zurita",
+        cargo: "Vicepresidente Académico",
         estructura_organizacional: "Directiva",
-        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tortor dictumst ridiculus malesuada at maecenas.",
+        descripcion: "Estudiante de Computación en la ESPOL",
         img: "https://pbs.twimg.com/profile_images/1578213196808192001/Wi1dpPLD_400x400.jpg"
     },
     {
-        nombre: "Marlene Córdova",
+        nombre: "Samira Carrillo",
         cargo: "VP Administrativo",
         estructura_organizacional: "Directiva",
-        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tortor dictumst ridiculus malesuada at maecenas.",
+        descripcion: "Estudiante de Economía en la ESPOL",
         img: "https://media.licdn.com/dms/image/C4D03AQE3tVVcyTejQA/profile-displayphoto-shrink_400_400/0/1643923745854?e=1692835200&v=beta&t=mMh5ti-ElHkBlyeFG5ICUI_2CkYjdJUHG2Y3S00AzLg"
     },
     {
