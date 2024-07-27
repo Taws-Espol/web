@@ -1,4 +1,5 @@
 import React from "react";
+import "./activities.css"
 import { events } from "../../data/events.json";
 import Navbar from "../../components/Navbar";
 import Dots from "../../components/DotPattern";
@@ -22,14 +23,13 @@ const Activities = () => {
         <div className="container mx-auto mt-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {events.map((evento, index) => (
-              <div key={index} className="bg-white p-4 rounded shadow-md">
+              <div key={index} className="bg-white p-4 rounded shadow-md text-black">
                 <h2 className="text-lg font-semibold">{evento.name}</h2>
                 <p className="text-sm text-gray-600">Fecha: {evento.date}</p>
                 <p className="text-sm">{evento.description}</p>
               </div>
             ))}
           </div>
-          );
         </div>
         <Footer />
       </div>
