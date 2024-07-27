@@ -6,6 +6,12 @@ Figma: https://www.figma.com/design/i0fX3p8BZWkGqRBPiRjLYS/P%C3%A1gina-Web?node-
 
 _**no filtrar figma**_
 
+## Reglas y recomendaciones
+
+- **Usar tailwind**: no crear archivos .css. Por algo estamos usando tailwind.
+- **Colores**: añadir los colores a `tailwind.config.cjs`. Introducir colors quemados son un dolor de cabeza.
+- **Tratar de no usar librerias**: html + css es poderoso, no siempre se necesita js. Preferible crear un componente tu mismo, a importar toda una librería. 
+
 # Development server
 
 Run `npm install` for dependencies, a node_modules file will be created
