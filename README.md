@@ -11,6 +11,8 @@ _**no filtrar figma**_
 - **Usar tailwind**: no crear archivos .css. Por algo estamos usando tailwind.
 - **Colores**: añadir los colores a `tailwind.config.cjs`. Introducir colors quemados son un dolor de cabeza.
 - **Tratar de no usar librerias**: html + css es poderoso, no siempre se necesita js. Preferible crear un componente tu mismo, a importar toda una librería. 
+- **Inglés**: inglés para todos los archivos, variables, carpetas, commit, rutas, etc. Español para github (issues y pull request).
+- **Responsive**: antes que nada, revisa que tus cambios sean responsive.
 
 # Development server
 
