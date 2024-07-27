@@ -5,9 +5,11 @@ module.exports = {
     extend: {
       colors: {
         taws: "#1A1E2C",
-        tawsLight: "#303441",
+        white: "#FFFFFF",
         tawsBlue: "#1AC8FF",
+        orange: "#D19121",
         cargo: "#CBCA6D",
+        tawsLight: "#303441",
       },
     },
   },
