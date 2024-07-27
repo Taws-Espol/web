@@ -1,5 +1,5 @@
 import React from "react";
-import { teams } from "../data/teams.json";
+import { teams } from "../data/teams";
 
 const mentor = teams.filter((member) => member.org_structure === "Mentor");
 

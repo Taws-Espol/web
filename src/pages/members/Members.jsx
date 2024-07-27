@@ -8,7 +8,7 @@ import {
 import "./members.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import { members } from "../../data/members.json";
+import { members } from "../../data/members.js";
 
 function Header() {
   return (
