@@ -9,7 +9,7 @@ import "./index.css";
 import App from "./App";
 import Members from "./pages/members/Members";
 import About from "./pages/about/About";
-import Events from "./pages/events/Events";
+import Activities from "./pages/activities/Activities";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/eventos",
-    element: <Events />,
+    element: <Activities />,
   },
   {
     path: "/about",
