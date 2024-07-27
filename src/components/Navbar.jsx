@@ -6,7 +6,7 @@ const Navbar = (props) => {
   const Links = [
     { name: "Inicio", link: "/", selected: "inicio" },
     { name: "Nosotros", link: "/about", selected: "about" },
-    { name: "Eventos", link: "/eventos", selected: "eventos" },
+    { name: "Actividades", link: "/eventos", selected: "eventos" },
     {
       name: "Proyectos",
       link: "https://github.com/Taws-Espol",
