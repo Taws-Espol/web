@@ -14,7 +14,7 @@
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier src --check",
     "prettier:fix": "npm run prettier -- --write",
-    "format": "npm run prettier:fix && npm run lint:fix",
+    "format": "git add . && npm run prettier:fix && npm run lint:fix",
     "precommit-msg": "echo 'pre-commit: checking commit message'"
   },
   "dependencies": {
