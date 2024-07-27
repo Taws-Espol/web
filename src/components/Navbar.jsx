@@ -7,7 +7,11 @@ const Navbar = (props) => {
     { name: "Inicio", link: "/", selected: "inicio" },
     { name: "Nosotros", link: "/about", selected: "about" },
     { name: "Actividades", link: "/eventos", selected: "eventos" },
-    { name: "Proyectos", link: "https://github.com/Taws-Espol", selected: "proyectos" },
+    {
+      name: "Proyectos",
+      link: "https://github.com/Taws-Espol",
+      selected: "proyectos",
+    },
     { name: "Miembros", link: "/miembros", selected: "miembros" },
     { name: "Blog", link: "https://medium.com/taws", selected: "blog" },
   ];
@@ -23,14 +27,16 @@ const Navbar = (props) => {
             TAWS
           </span>
           <ul
-            className={`md:flex md:justify-evenly absolute md:static w-full md:w-auto md:pl-0 transition-all duration-300 ease-in bg-tawsLight text-center ${open ? "top-20" : "top-[-490px]"
-              }`}
+            className={`md:flex md:justify-evenly absolute md:static w-full md:w-auto md:pl-0 transition-all duration-300 ease-in bg-tawsLight text-center ${
+              open ? "top-20" : "top-[-490px]"
+            }`}
           >
             {Links.map((link) => (
               <li
                 key={link.name}
-                className={`${props.item === link.selected ? "border-b-2" : ""
-                  }  md:my-0 my-7`}
+                className={`${
+                  props.item === link.selected ? "border-b-2" : ""
+                }  md:my-0 my-7`}
               >
                 <a
                   href={link.link}
