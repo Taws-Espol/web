@@ -24,3 +24,26 @@
 .scrollbar::-webkit-scrollbar-thumb:hover {
   background: #242d4d;
 }
+
+.Members {
+  background-color: #1a202c;
+  color: white;
+  min-height: 100vh;
+}
+
+.contenedor {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+input[type="text"] {
+  width: 300px;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
