@@ -1,11 +1,12 @@
 
-import { useContext, useState, createContext } from "react";
-import { eventosJSON } from "../data/events";
+import { useContext, useState, createContext, useEffect } from "react";
+import {events as fileEvents} from "../data/events.json";
 
 const EventContext = createContext();
 export const useEventContext = () => useContext(EventContext);
 export const EventProvider = ({ children }) => {
-  const [events, setEvents] = useState(eventosJSON.eventos);
+
+  const [events, setEvents] = useState(fileEvents);
 
   return (
     <EventContext.Provider value={{ events }}>{children}</EventContext.Provider>
