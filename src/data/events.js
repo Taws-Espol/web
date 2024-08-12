@@ -2,8 +2,10 @@
 export const eventosJSON = {
     "eventos": [
         {
-            "nombre": "Charla - ¿Cómo el Big data actúa como estrategia de marketing efectiva en la industria turística y de viajes?",
+            "imageUrl": "",
+            "nombre": "Auditorio #1",
             "fecha": "2023-12-17",
+            "ubicacion": "Auditorio FIEC",
             "descripcion": "Exploración de herramientas y técnicas en ciencia de datos aplicada."
         },
         {
