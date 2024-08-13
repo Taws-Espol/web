@@ -1,16 +1,12 @@
 import React from "react";
-import "./activities.css";
-import { events } from "../../data/events.json";
 import Navbar from "../../components/Navbar";
 import Dots from "../../components/DotPattern";
 import Footer from "../../components/Footer";
+import { EventList } from "../../components/EventList.jsx";
+import { EventProvider } from "../../context/EventContext.jsx";
 
 function Header() {
-  return (
-    <div>
-      <h1 className="text-white font-semibold text-5xl">Actividades</h1>
-    </div>
-  );
+  return <h1 className="text-white font-semibold text-5xl">Actividades</h1>;
 }
 
 const Activities = () => {
@@ -20,19 +16,10 @@ const Activities = () => {
       <div className="Contenedor w-10/12 mx-auto">
         <Navbar item="eventos" />
         <Header />
-        <div className="container mx-auto mt-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {events.map((evento, index) => (
-              <div
-                key={index}
-                className="bg-white p-4 rounded shadow-md text-black"
-              >
-                <h2 className="text-lg font-semibold">{evento.name}</h2>
-                <p className="text-sm text-gray-600">Fecha: {evento.date}</p>
-                <p className="text-sm">{evento.description}</p>
-              </div>
-            ))}
-          </div>
+        <div className="mx-auto mt-8">
+          <EventProvider>
+            <EventList />
+          </EventProvider>
         </div>
         <Footer />
       </div>
