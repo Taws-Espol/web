@@ -38,7 +38,7 @@ const Team = () => {
                     return <div className='text-center mb-8'key={persona.nombre}>
                         <img className='w-32 h-32 rounded-full mx-auto mb-4' src={persona.img} alt={persona.nombre} />
                         <h2 className='text-white font-bold mb-3'>{persona.nombre}</h2>
-                        <p className='text-cargo mb-2'>{persona.cargo}</p>
+                        <p className='text-cargo mb-2'>{persona.role}</p>
                     </div>
                 })}
             </div>
