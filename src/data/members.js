@@ -1,9 +1,11 @@
 export const members = [
   {
-    name: "Jorge Apolo Acosta",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Kevin David Fernández Sánchez",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "kfernand@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -13,10 +15,12 @@ export const members = [
     ],
   },
   {
-    name: "Jonathan García Álvarez",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Nahin Jussephe Cevallos Vinces",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "dlandeta@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -26,10 +30,12 @@ export const members = [
     ],
   },
   {
-    name: "David Sumba Correa",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Jonathan Paúl Zambrano Arriaga",
+    photo: "",
+    major: "Computación",
+    mail: "njcevall@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -39,10 +45,12 @@ export const members = [
     ],
   },
   {
-    name: "Jonathan Zambrano Arriaga",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Darwin Javier Pacheco Paredes",
+    photo: "",
+    major: "Computación",
+    mail: "darwinpachecoparedes@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -52,10 +60,12 @@ export const members = [
     ],
   },
   {
-    name: "Michael Estrada Santana",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Roberto Andrés Patiño Salvatierra",
+    photo: "",
+    major: "Computación",
+    mail: "rapatino@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -65,10 +75,12 @@ export const members = [
     ],
   },
   {
-    name: "Diego Salazar Vega",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Michael Bryan Estrada Santana",
+    photo: "",
+    major: "Computación",
+    mail: "mbestrad@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -78,10 +90,12 @@ export const members = [
     ],
   },
   {
-    name: "Patrick Peralta Carrillo",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Jorge Alberto Apolo Acosta",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "jaapolo@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -91,10 +105,12 @@ export const members = [
     ],
   },
   {
-    name: "Axcel Espinoza Barrera",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Francisco Jose Terán Cobo",
+    photo: "",
+    major: "Telemática",
+    mail: "fjteran@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -104,10 +120,12 @@ export const members = [
     ],
   },
   {
-    name: "María José Moyano Tamayo",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Cristian Ariel Intriago Moncayo",
+    photo: "",
+    major: "Computación",
+    mail: "caintria@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -117,10 +135,12 @@ export const members = [
     ],
   },
   {
-    name: "Fiorella Yerovi Nevárez",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Angelo Saul Zurita Guerrero",
+    photo: "",
+    major: "Computación",
+    mail: "matthewtroya2304@gmail.com",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -130,10 +150,12 @@ export const members = [
     ],
   },
   {
-    name: "Nahin Cevallos Vinces",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Maria José Moyano Tamayo",
+    photo: "",
+    major: "Computación",
+    mail: "mjmoyano@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -143,10 +165,12 @@ export const members = [
     ],
   },
   {
-    name: "Johan Gilces Reyes",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Paulina Michelle Loor Tubay",
+    photo: "",
+    major: "Computación",
+    mail: "anmero@fiec.espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -156,10 +180,12 @@ export const members = [
     ],
   },
   {
-    name: "Jairo Alcívar Bahamonde",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Braulio de Jesús Rivas Abad",
+    photo: "",
+    major: "Computación",
+    mail: "aszurita@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -169,10 +195,12 @@ export const members = [
     ],
   },
   {
-    name: "Angello Bravo Mera",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Luis Fernando Romero Rodríguez",
+    photo: "",
+    major: "Computación",
+    mail: "mimoyano@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -182,10 +210,12 @@ export const members = [
     ],
   },
   {
-    name: "Juan Urgiles Tumbaco",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Jose Luis Chong Acuña",
+    photo: "",
+    major: "Computación",
+    mail: "paumloor@espol.edu.ec",
     frase: "",
+    facultad: "FCSH",
     redes: [
       {
         github: "",
@@ -195,10 +225,12 @@ export const members = [
     ],
   },
   {
-    name: "Marlene Córdova Utreras",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Diego Andrés Salazar Vega",
+    photo: "",
+    major: "Computación",
+    mail: "cadosanc@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -208,10 +240,12 @@ export const members = [
     ],
   },
   {
-    name: "Samira Carrillo Ríos",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Víctor Daniel Borbor Gutiérrez",
+    photo: "",
+    major: "Computación",
+    mail: "brarabad@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -221,10 +255,12 @@ export const members = [
     ],
   },
   {
-    name: "Kevin Valle Soledispa",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Samira Isabel Carrillo Ríos",
+    photo: "",
+    major: "Economía",
+    mail: "tromero@espol.edu.ec",
     frase: "",
+    facultad: "FCSH",
     redes: [
       {
         github: "",
@@ -234,10 +270,12 @@ export const members = [
     ],
   },
   {
-    name: "Jose Chong Acuña",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Francisco Alejandro Noriega Martín",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "Jichong@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -247,10 +285,12 @@ export const members = [
     ],
   },
   {
-    name: "Milca Valdez Flores",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Joshua Alexander Cobos Valle",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "disavega@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -260,10 +300,12 @@ export const members = [
     ],
   },
   {
-    name: "Anthony Santacruz Reyes",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Axcel Jeremy Espinoza Barrera",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "vicbguti@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -273,10 +315,12 @@ export const members = [
     ],
   },
   {
-    name: "Joshua Cobos Valle",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Patrick Jairo Peralta Carrillo",
+    photo: "",
+    major: "Telemática",
+    mail: "flayedra@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -286,10 +330,12 @@ export const members = [
     ],
   },
   {
-    name: "Roberto Patiño Salvatierra",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Kevin Paul Valle Soledispa",
+    photo: "",
+    major: "Computación",
+    mail: "ceorella@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -299,10 +345,12 @@ export const members = [
     ],
   },
   {
-    name: "Joangie Márquez Aguilar",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Alfredo Andrés Porras Mendez",
+    photo: "",
+    major: "Computación",
+    mail: "samiscar@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -312,10 +360,12 @@ export const members = [
     ],
   },
   {
-    name: "Miguel Mejía Zuñiga",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Anthony Alexander Santacruz Reyes",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "fnoriega@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -325,10 +375,12 @@ export const members = [
     ],
   },
   {
-    name: "Andrea Mero Plaza",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Fernando Enoc Bucheli Franco",
+    photo: "",
+    major: "Computación",
+    mail: "josalcob@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -338,10 +390,12 @@ export const members = [
     ],
   },
   {
-    name: "Francisco Noriega Martín",
-    major: "Ing. Computación",
-    mail: "",
+    name: "George Alejandro Guerrero Cáceres",
+    photo: "",
+    major: "Economía",
+    mail: "axciespi@espol.edu.ec",
     frase: "",
+    facultad: "FCSH",
     redes: [
       {
         github: "",
@@ -351,10 +405,12 @@ export const members = [
     ],
   },
   {
-    name: "Carlos Meneses Murillo",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Jairo Roberto Alcívar Bahamonde",
+    photo: "",
+    major: "Computación",
+    mail: "pjperalt@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -364,10 +420,12 @@ export const members = [
     ],
   },
   {
-    name: "Víctor Borbor Gutiérrez",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Juan Andrés Urgiles Tumbaco",
+    photo: "",
+    major: "Computación",
+    mail: "henstsia@fiec.espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -377,10 +435,12 @@ export const members = [
     ],
   },
   {
-    name: "David Sumba Correa",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Jonathan Francisco García Álvarez",
+    photo: "",
+    major: "Computación",
+    mail: "pjperalt@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -390,10 +450,12 @@ export const members = [
     ],
   },
   {
-    name: "Erick Lorenzo López",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Miguel André Mejía Zuñiga",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "cmeneses@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -403,10 +465,12 @@ export const members = [
     ],
   },
   {
-    name: "Fernando Bucheli Franco",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Jose Daniel Rojas Lara",
+    photo: "",
+    major: "Computación",
+    mail: "kewsoule@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -416,10 +480,12 @@ export const members = [
     ],
   },
   {
-    name: "Geovanny Rojas Lindao",
-    major: "Ing. Computación",
-    mail: "",
+    name: "David Salomón Sumba Correa",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "aporras@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -429,10 +495,12 @@ export const members = [
     ],
   },
   {
-    name: "Darwin Pacheco Paredes",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Camila Doménica Reyes Vera",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "aasanta@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -442,10 +510,12 @@ export const members = [
     ],
   },
   {
-    name: "Jorge Apolo Acosta",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Angelo de Jesús Bravo Mera",
+    photo: "",
+    major: "Computación",
+    mail: "fbucheli@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -455,10 +525,12 @@ export const members = [
     ],
   },
   {
-    name: "Camila Reyes Vera",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Andrés Alexis Salazar Macias",
+    photo: "",
+    major: "Computación",
+    mail: "geoaguer@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -468,10 +540,12 @@ export const members = [
     ],
   },
   {
-    name: "Kevin Fernández Sánchez",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Dominique Denisse Herrera Guzmán",
+    photo: "",
+    major: "Economía",
+    mail: "jairoalc@espol.edu.ec",
     frase: "",
+    facultad: "FCSH",
     redes: [
       {
         github: "",
@@ -481,10 +555,12 @@ export const members = [
     ],
   },
   {
-    name: "Camila Reyes Vera",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Allan Moisés Chacha León",
+    photo: "",
+    major: "Telemática",
+    mail: "jaurgile@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -494,10 +570,12 @@ export const members = [
     ],
   },
   {
-    name: "Braulio Rivas Abad",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Nahin Isaias Espinoza Ortiz",
+    photo: "",
+    major: "Computación",
+    mail: "jonfgrar@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -507,10 +585,12 @@ export const members = [
     ],
   },
   {
-    name: "Andrés Mendez Porras",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Alexandre David Icaza González",
+    photo: "",
+    major: "Computación",
+    mail: "mianmej@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -520,23 +600,12 @@ export const members = [
     ],
   },
   {
-    name: "Luis Romero Rodriguez",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Isabella Ivonne Martín Pimentel",
+    photo: "",
+    major: "Computación",
+    mail: "jdrojas@espol.edu.ec",
     frase: "",
-    redes: [
-      {
-        github: "https://github.com/lromeror",
-        linkedin: "https://www.linkedin.com/in/luis-f-romero",
-        twitter: "dsadasdasd.com",
-      },
-    ],
-  },
-  {
-    name: "Paulina Loor Tubay",
-    major: "Ing. Computación",
-    mail: "",
-    frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -546,10 +615,12 @@ export const members = [
     ],
   },
   {
-    name: "Angelo Zurita Guerrero",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Marilu Isabeau Andrade Veloz",
+    photo: "",
+    major: "Computación",
+    mail: "sespana@espol.edu.ec",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -559,10 +630,12 @@ export const members = [
     ],
   },
   {
-    name: "Joel Choez Espinoza",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Juan Andrés Munizaga Torres",
+    photo: "",
+    major: "Mecatrónica",
+    mail: "ccxarvaj@espol.edu.ec",
     frase: "",
+    facultad: "FIMCP",
     redes: [
       {
         github: "",
@@ -572,10 +645,12 @@ export const members = [
     ],
   },
   {
-    name: "Camila Sánchez Cevallos",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Annabella Noelia Sánchez Guzmán",
+    photo: "",
+    major: "Computación",
+    mail: "nicolegg127@gmail.com",
     frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
@@ -585,62 +660,12 @@ export const members = [
     ],
   },
   {
-    name: "Noelia Intriago Sánchez",
-    major: "Ing. Computación",
-    mail: "",
+    name: "Juan Francisco Fernández Ramos",
+    photo: "",
+    major: "Computación",
+    mail: "pablonandres_96@hotmail.com",
     frase: "",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
-  },
-  {
-    name: "Cristian Intriago Moncayo",
-    major: "Ing. Computación",
-    mail: "",
-    frase: "",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
-  },
-  {
-    name: "George Guerrero Cáceres",
-    major: "Ing. Computación",
-    mail: "",
-    frase: "",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
-  },
-  {
-    name: "Francisco Teran Cobo",
-    major: "Ing. Computación",
-    mail: "",
-    frase: "",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
-  },
-  {
-    name: "Daniela Landeta Pua",
-    major: "Ing. Computación",
-    mail: "",
-    frase: "",
+    facultad: "FIEC",
     redes: [
       {
         github: "",

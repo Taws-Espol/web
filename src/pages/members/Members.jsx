@@ -6,7 +6,7 @@ import { members } from "../../data/members.js";
 import CardInformation from "./CardInformation";
 
 function Cards() {
-  const ITEMS_PER_PAGE = 8;
+  const ITEMS_PER_PAGE = 9; // Cambiar a 9
   const [textoBusqueda, setTextoBusqueda] = useState("");
   const [active, setActive] = useState(1);
   const [totalPages, setTotalPages] = useState(5);
@@ -79,13 +79,14 @@ function Cards() {
         </div>
       </div>
       <hr className="border-gray-400 mb-8" />
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto justify-items-center">
         {currentPageItems.map((item, index) => (
           <CardInformation
             key={index}
             name={item.name}
             major={item.major}
-            imageUrl="https://via.placeholder.com/300x200"
+            faculty={item.facultad}
+            imageUrl="https://via.placeholder.com/600x500"
             socialLinks={item.redes}
           />
         ))}
