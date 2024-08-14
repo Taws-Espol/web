@@ -33,6 +33,7 @@ const CardInformation = ({
   name,
   major,
   faculty,
+  frase,
   imageUrl,
   socialLinks = {},
 }) => {
@@ -77,10 +78,10 @@ const CardInformation = ({
               <LuRefreshCcwDot className="w-4 h-4 text-gray-700 z-10" />
             </div>
             <div className="transform rotate-y-180 w-full">
-              <h1 className="text-[25px] mx-5 mb-5 text-white -z-10">Frase:</h1>
-              <p className="text-center text-white text-lg inverted-text">
-                Aquí podría ir la frase que quieras mostrar.
-              </p>
+              <h1 className="text-[25px] mx-5 mb-5  text-white -z-10">
+                Frase:
+              </h1>
+              <p className=" text-white text-lg inverted-text p-5">{frase}</p>
               <div className="flex justify-end">
                 <div className="text-white">{faculty}</div>
               </div>

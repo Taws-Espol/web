@@ -4,7 +4,8 @@ export const members = [
     photo: "",
     major: "Mecatrónica",
     mail: "kfernand@espol.edu.ec",
-    frase: "",
+    frase:
+      "Nunca me rendiré, cada vez que caiga me levantaré con más fuerza, si ∞ veces me caigo ∞ veces me levantaré.",
     facultad: "FIMCP",
     redes: [
       {
