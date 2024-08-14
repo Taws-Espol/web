@@ -6,7 +6,7 @@ import { members } from "../../data/members.js";
 import CardInformation from "./CardInformation";
 
 function Cards() {
-  const ITEMS_PER_PAGE = 9; // Cambiar a 9
+  const ITEMS_PER_PAGE = 6;
   const [textoBusqueda, setTextoBusqueda] = useState("");
   const [active, setActive] = useState(1);
   const [totalPages, setTotalPages] = useState(5);

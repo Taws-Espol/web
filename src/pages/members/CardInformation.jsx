@@ -25,7 +25,7 @@ const getFacultyColor = (faculty) => {
       return "bg-[#00a7b4]";
 
     default:
-      return "bg-black"; // Color predeterminado
+      return "bg-black";
   }
 };
 
@@ -48,7 +48,7 @@ const CardInformation = ({
 
   return (
     <div
-      className={`rounded-lg border-[0.5rem] h-[500px] border-white border-opacity-60 overflow-hidden bg-white shadow-lg flex flex-col justify-between transform transition-transform duration-500 ${
+      className={`rounded-lg border-[0.5rem] h-[481px] border-white border-opacity-60 overflow-hidden bg-white shadow-lg flex flex-col justify-between transform transition-transform duration-500 ${
         isFlipped ? "rotate-y-180" : ""
       }`}
     >
@@ -78,10 +78,8 @@ const CardInformation = ({
               <LuRefreshCcwDot className="w-4 h-4 text-gray-700 z-10" />
             </div>
             <div className="transform rotate-y-180 w-full">
-              <h1 className="text-[25px] mx-5 mb-5  text-white -z-10">
-                Frase:
-              </h1>
-              <p className=" text-white text-lg inverted-text p-5">{frase}</p>
+              <h1 className="text-[25px] mx-5 mb-5 text-white -z-10">Frase:</h1>
+              <p className="text-white text-lg inverted-text p-5">{frase}</p>
               <div className="flex justify-end">
                 <div className="text-white">{faculty}</div>
               </div>
@@ -92,8 +90,13 @@ const CardInformation = ({
       {!isFlipped && (
         <>
           <div className={`p-4 text-center flex-grow ${facultyColor}`}>
-            <h3 className="text-lg font-semibold text-white">{name}</h3>
-            <p className="text-gray-200">{major}</p>
+            <h2
+              style={{ fontSize: "1.28rem" }}
+              className="font-semibold text-white"
+            >
+              {name}
+            </h2>
+            <p className="text-md text-gray-100">{major}</p>
           </div>
           <div className="flex justify-around bg-white p-4 mt-auto">
             <a

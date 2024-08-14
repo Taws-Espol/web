@@ -216,7 +216,7 @@ export const members = [
     major: "Computación",
     mail: "paumloor@espol.edu.ec",
     frase: "",
-    facultad: "FCSH",
+    facultad: "FIEC",
     redes: [
       {
         github: "",
