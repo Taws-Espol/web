@@ -7,13 +7,11 @@ export const members = [
     frase:
       "Nunca me rendiré, cada vez que caiga me levantaré con más fuerza, si ∞ veces me caigo ∞ veces me levantaré.",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "https://github.com/KevinFernandez21/",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Nahin Jussephe Cevallos Vinces",
@@ -22,13 +20,11 @@ export const members = [
     mail: "dlandeta@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Jonathan Paúl Zambrano Arriaga",
@@ -37,13 +33,11 @@ export const members = [
     mail: "njcevall@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Darwin Javier Pacheco Paredes",
@@ -52,13 +46,11 @@ export const members = [
     mail: "darwinpachecoparedes@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Roberto Andrés Patiño Salvatierra",
@@ -67,13 +59,11 @@ export const members = [
     mail: "rapatino@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Michael Bryan Estrada Santana",
@@ -82,13 +72,11 @@ export const members = [
     mail: "mbestrad@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Jorge Alberto Apolo Acosta",
@@ -97,13 +85,11 @@ export const members = [
     mail: "jaapolo@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Francisco Jose Terán Cobo",
@@ -112,13 +98,11 @@ export const members = [
     mail: "fjteran@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Cristian Ariel Intriago Moncayo",
@@ -127,13 +111,11 @@ export const members = [
     mail: "caintria@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Angelo Saul Zurita Guerrero",
@@ -142,13 +124,11 @@ export const members = [
     mail: "matthewtroya2304@gmail.com",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Maria José Moyano Tamayo",
@@ -157,13 +137,11 @@ export const members = [
     mail: "mjmoyano@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Paulina Michelle Loor Tubay",
@@ -172,28 +150,24 @@ export const members = [
     mail: "anmero@fiec.espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Braulio de Jesús Rivas Abad",
     photo: "",
     major: "Computación",
-    mail: "aszurita@espol.edu.ec",
+    mail: "brarabad@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "https://github.com/brauliorivas",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Luis Fernando Romero Rodríguez",
@@ -202,13 +176,11 @@ export const members = [
     mail: "mimoyano@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Jose Luis Chong Acuña",
@@ -217,13 +189,11 @@ export const members = [
     mail: "paumloor@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Diego Andrés Salazar Vega",
@@ -232,13 +202,11 @@ export const members = [
     mail: "cadosanc@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Víctor Daniel Borbor Gutiérrez",
@@ -247,13 +215,11 @@ export const members = [
     mail: "brarabad@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Samira Isabel Carrillo Ríos",
@@ -262,13 +228,11 @@ export const members = [
     mail: "tromero@espol.edu.ec",
     frase: "",
     facultad: "FCSH",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Francisco Alejandro Noriega Martín",
@@ -277,13 +241,11 @@ export const members = [
     mail: "Jichong@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Joshua Alexander Cobos Valle",
@@ -292,13 +254,11 @@ export const members = [
     mail: "disavega@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Axcel Jeremy Espinoza Barrera",
@@ -307,13 +267,11 @@ export const members = [
     mail: "vicbguti@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Patrick Jairo Peralta Carrillo",
@@ -322,13 +280,11 @@ export const members = [
     mail: "flayedra@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Kevin Paul Valle Soledispa",
@@ -337,13 +293,11 @@ export const members = [
     mail: "ceorella@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Alfredo Andrés Porras Mendez",
@@ -352,13 +306,11 @@ export const members = [
     mail: "samiscar@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Anthony Alexander Santacruz Reyes",
@@ -367,13 +319,11 @@ export const members = [
     mail: "fnoriega@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Fernando Enoc Bucheli Franco",
@@ -382,13 +332,11 @@ export const members = [
     mail: "josalcob@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "George Alejandro Guerrero Cáceres",
@@ -397,13 +345,11 @@ export const members = [
     mail: "axciespi@espol.edu.ec",
     frase: "",
     facultad: "FCSH",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Jairo Roberto Alcívar Bahamonde",
@@ -412,13 +358,11 @@ export const members = [
     mail: "pjperalt@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Juan Andrés Urgiles Tumbaco",
@@ -427,13 +371,11 @@ export const members = [
     mail: "henstsia@fiec.espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Jonathan Francisco García Álvarez",
@@ -442,13 +384,11 @@ export const members = [
     mail: "pjperalt@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Miguel André Mejía Zuñiga",
@@ -457,13 +397,11 @@ export const members = [
     mail: "cmeneses@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Jose Daniel Rojas Lara",
@@ -472,13 +410,11 @@ export const members = [
     mail: "kewsoule@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "David Salomón Sumba Correa",
@@ -487,13 +423,11 @@ export const members = [
     mail: "aporras@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Camila Doménica Reyes Vera",
@@ -502,13 +436,11 @@ export const members = [
     mail: "aasanta@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Angelo de Jesús Bravo Mera",
@@ -517,13 +449,11 @@ export const members = [
     mail: "fbucheli@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Andrés Alexis Salazar Macias",
@@ -532,13 +462,11 @@ export const members = [
     mail: "geoaguer@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Dominique Denisse Herrera Guzmán",
@@ -547,13 +475,11 @@ export const members = [
     mail: "jairoalc@espol.edu.ec",
     frase: "",
     facultad: "FCSH",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Allan Moisés Chacha León",
@@ -562,13 +488,11 @@ export const members = [
     mail: "jaurgile@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Nahin Isaias Espinoza Ortiz",
@@ -577,13 +501,11 @@ export const members = [
     mail: "jonfgrar@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Alexandre David Icaza González",
@@ -592,13 +514,11 @@ export const members = [
     mail: "mianmej@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Isabella Ivonne Martín Pimentel",
@@ -607,13 +527,11 @@ export const members = [
     mail: "jdrojas@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Marilu Isabeau Andrade Veloz",
@@ -622,13 +540,11 @@ export const members = [
     mail: "sespana@espol.edu.ec",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Juan Andrés Munizaga Torres",
@@ -637,13 +553,11 @@ export const members = [
     mail: "ccxarvaj@espol.edu.ec",
     frase: "",
     facultad: "FIMCP",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Annabella Noelia Sánchez Guzmán",
@@ -652,13 +566,11 @@ export const members = [
     mail: "nicolegg127@gmail.com",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
   {
     name: "Juan Francisco Fernández Ramos",
@@ -667,12 +579,10 @@ export const members = [
     mail: "pablonandres_96@hotmail.com",
     frase: "",
     facultad: "FIEC",
-    redes: [
-      {
-        github: "",
-        linkedin: "",
-        twitter: "",
-      },
-    ],
+    redes: {
+      github: "",
+      linkedin: "",
+      twitter: "",
+    },
   },
 ];

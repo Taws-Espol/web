@@ -94,7 +94,7 @@ function Cards() {
       </div>
       <div className="flex items-center justify-center py-4">
         <button
-          className={`px-3 py-1 rounded-md text-white mr-2 ${active === 1 ? "bg-gray-300" : "bg-tawsBlue"}`}
+          className={`px-3 py-1 rounded-md font-medium text-white mr-2 ${active === 1 ? "bg-tawsLight" : "bg-tawsBlue"}`}
           onClick={prev}
           disabled={active === 1}
         >
@@ -104,7 +104,7 @@ function Cards() {
           Page {active} of {totalPages}
         </p>
         <button
-          className={`px-3 py-1 rounded-md text-white ml-2 ${active === totalPages ? "bg-gray-300" : "bg-tawsBlue"}`}
+          className={`px-3 py-1 rounded-md font-medium text-white ml-2 ${active === totalPages ? "bg-tawsLight" : "bg-tawsBlue"}`}
           onClick={next}
           disabled={active === totalPages}
         >

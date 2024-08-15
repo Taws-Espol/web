@@ -38,7 +38,7 @@ const CardInformation = ({
   socialLinks = {},
 }) => {
   const [isFlipped, setIsFlipped] = useState(false);
-  const { github, linkedin, twitter } = socialLinks[0] || {};
+  const { github, linkedin, twitter } = socialLinks || {};
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
@@ -48,7 +48,7 @@ const CardInformation = ({
 
   return (
     <div
-      className={`rounded-lg border-[0.5rem] h-[481px] border-white border-opacity-60 overflow-hidden bg-white shadow-lg flex flex-col justify-between transform transition-transform duration-500 ${
+      className={`rounded-lg overflow-hidden bg-black flex flex-col justify-between transform transition-transform duration-500 ${
         isFlipped ? "rotate-y-180" : ""
       }`}
     >
@@ -98,32 +98,42 @@ const CardInformation = ({
             </h2>
             <p className="text-md text-gray-100">{major}</p>
           </div>
-          <div className="flex justify-around bg-white p-4 mt-auto">
-            <a
-              href={linkedin || "#"}
-              target={linkedin ? "_blank" : "_self"}
-              rel={linkedin ? "noopener noreferrer" : undefined}
-              className="text-blue-700"
-            >
-              <FaLinkedin className="w-6 h-6" />
-            </a>
-            <a
-              href={twitter || "#"}
-              target={twitter ? "_blank" : "_self"}
-              rel={twitter ? "noopener noreferrer" : undefined}
-              className="text-blue-400"
-            >
-              <FaSquareXTwitter className="w-6 h-6" />
-            </a>
-            <a
-              href={github || "#"}
-              target={github ? "_blank" : "_self"}
-              rel={github ? "noopener noreferrer" : undefined}
-              className="text-gray-900"
-            >
-              <FaGithub className="w-6 h-6" />
-            </a>
-          </div>
+          {(linkedin || twitter || github) && (
+            <div className="flex justify-around bg-white p-4 mt-auto">
+              {linkedin && (
+                <a
+                  href={linkedin || "#"}
+                  target={linkedin ? "_blank" : "_self"}
+                  rel={linkedin ? "noopener noreferrer" : undefined}
+                  className="text-blue-700"
+                >
+                  <FaLinkedin className="w-6 h-6" />
+                </a>
+              )}
+
+              {twitter && (
+                <a
+                  href={twitter || "#"}
+                  target={twitter ? "_blank" : "_self"}
+                  rel={twitter ? "noopener noreferrer" : undefined}
+                  className="text-blue-400"
+                >
+                  <FaSquareXTwitter className="w-6 h-6" />
+                </a>
+              )}
+
+              {github && (
+                <a
+                  href={github || "#"}
+                  target={github ? "_blank" : "_self"}
+                  rel={github ? "noopener noreferrer" : undefined}
+                  className="text-gray-900"
+                >
+                  <FaGithub className="w-6 h-6" />
+                </a>
+              )}
+            </div>
+          )}
         </>
       )}
     </div>
