@@ -1,22 +1,9 @@
 import React, { useEffect, useState } from "react";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-} from "@material-tailwind/react";
-import "./members.css";
+import { FaSearch } from "react-icons/fa";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { members } from "../../data/members.js";
-
-function Header() {
-  return (
-    <div className="mt-8 mb-4">
-      <h1 className="text-white font-semibold text-5xl">Miembros</h1>
-    </div>
-  );
-}
+import CardInformation from "./CardInformation";
 
 function Cards() {
   const ITEMS_PER_PAGE = 6;
@@ -58,7 +45,7 @@ function Cards() {
     }
 
     const filteredItems = members.filter((item) =>
-      item.toLowerCase().includes(textoBusqueda.toLowerCase()),
+      item.name.toLowerCase().includes(textoBusqueda.toLowerCase()),
     );
 
     setTotalPages(Math.ceil(filteredItems.length / ITEMS_PER_PAGE));
@@ -78,59 +65,36 @@ function Cards() {
 
   return (
     <>
-      <div className="flex justify-end items-center mb-5">
-        <input
-          type="text"
-          className="px-3 py-2 text-gray-700 border rounded-lg focus:outline-none"
-          value={textoBusqueda}
-          onChange={handleInputChange}
-          placeholder="Buscar..."
-        />
+      <div className="flex flex-col sm:flex-row justify-between items-center mb-4">
+        <h1 className="text-white font-semibold text-5xl">Miembros</h1>
+        <div className="relative mt-4 sm:mt-0">
+          <input
+            type="text"
+            className="px-4 py-2 pl-10 text-gray-700 border rounded-lg focus:outline-none"
+            value={textoBusqueda}
+            onChange={handleInputChange}
+            placeholder="Buscar..."
+          />
+          <FaSearch className="absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400" />
+        </div>
       </div>
-      <div className="flex flex-wrap justify-center gap-6">
+      <hr className="border-gray-400 mb-8" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto justify-items-center">
         {currentPageItems.map((item, index) => (
-          <Card
-            className="w-64 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col justify-between"
+          <CardInformation
             key={index}
-          >
-            <CardHeader floated={false} className="h-48">
-              {/* TODO: MAKE THIS DYNAMIC */}
-              <img
-                src="https://via.placeholder.com/200"
-                alt="profile-picture"
-                className="w-full h-full object-cover"
-              />
-            </CardHeader>
-            <CardBody className="text-center flex flex-col justify-between h-full">
-              <div>
-                <Typography
-                  variant="h5"
-                  color="blue-gray"
-                  className="pt-4 mb-2"
-                >
-                  {item}
-                </Typography>
-                <Typography color="blue-gray" className="font-medium">
-                  Ing. en computación
-                </Typography>
-                <Typography color="gray" className="text-justify mt-2 p-3">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                  exercitationem praesentium nihil.
-                </Typography>
-              </div>
-              <div className="mt-2">
-                <Typography color="gray" className="pb-3">
-                  correo@espol.edu.ec
-                </Typography>
-              </div>
-            </CardBody>
-          </Card>
+            name={item.name}
+            major={item.major}
+            frase={item.frase}
+            faculty={item.facultad}
+            imageUrl="https://via.placeholder.com/600x500"
+            socialLinks={item.redes}
+          />
         ))}
       </div>
       <div className="flex items-center justify-center py-4">
         <button
-          className={`px-3 py-1 rounded-md text-white mr-2 ${active === 1 ? "bg-gray-300" : "bg-tawsBlue"}`}
+          className={`px-3 py-1 rounded-md font-medium text-white mr-2 ${active === 1 ? "bg-tawsLight" : "bg-tawsBlue"}`}
           onClick={prev}
           disabled={active === 1}
         >
@@ -140,7 +104,7 @@ function Cards() {
           Page {active} of {totalPages}
         </p>
         <button
-          className={`px-3 py-1 rounded-md text-white ml-2 ${active === totalPages ? "bg-gray-300" : "bg-tawsBlue"}`}
+          className={`px-3 py-1 rounded-md font-medium text-white ml-2 ${active === totalPages ? "bg-tawsLight" : "bg-tawsBlue"}`}
           onClick={next}
           disabled={active === totalPages}
         >
@@ -154,10 +118,8 @@ function Cards() {
 const Members = () => {
   return (
     <div className="Members bg-taws">
-      {/* <Dots /> */}
       <div className="Contenedor w-10/12 mx-auto">
         <Navbar item="miembros" />
-        <Header />
         <Cards />
         <Footer />
       </div>

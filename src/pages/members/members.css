@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
 .card {
   width: 300px;
 }
@@ -46,4 +50,8 @@ input[type="text"] {
 
 .card:hover {
   transform: scale(1.05);
+}
+
+.inverted-text {
+  transform: rotate(3600deg);
 }
