@@ -11,14 +11,26 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project, key) => {
           return (
-            <div key={key} className="mx-12 flex-col py-8 text-white">
+            <div
+              key={key}
+              className="mx-12 flex-col py-8 px-12 rounded-xl text-white bg-projectBG text-wrap"
+            >
               <span className="icon2 fas fa-globe bg-tawsLight flex items-center justify-center">
                 <BsFileCode size={30} classname="flex items-center" />
               </span>
               <h2 className="text-xl font-bold mb-3 mt-16">{project.name}</h2>
               <p className="my-3">{project.description}</p>
-              <p className="mt-4 bg-blue-600">Mentor: {project.mentor}</p>
-              <p className="mt-4 bg-blue-600">Miembros: {project.members}</p>
+              <p className="mt-4">Mentor: {project.mentor}</p>
+              <p className="my-4">Miembros: {project.members}</p>
+              <a
+                href={project.link}
+                className="text-orange"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-white">Link: </span>
+                {project.name}
+              </a>
             </div>
           );
         })}

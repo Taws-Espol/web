@@ -17,7 +17,7 @@ const Navbar = (props) => {
   ];
 
   return (
-    <div className="Navbar">
+    <div className="Navbar z-10">
       <div className="flex justify-center p-8 items-center">
         <div className="max-md:flex max-md:justify-evenly w-4/5 p-2 bg-tawsLight rounded-full">
           <span

@@ -51,7 +51,9 @@ const About = () => {
           </div>
         </div>
         <div className="mt-10">
-          <p className="text-orange text-3xl lg:text-center">Objetivos</p>
+          <p className="text-orange text-3xl lg:text-center font-bold">
+            Objetivos
+          </p>
           <div className="flex flex-col justify-center mt-4 max-w-2xl mx-auto">
             {goals.map((goal, index) => (
               <Goal

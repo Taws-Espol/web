@@ -9,6 +9,7 @@ module.exports = {
         orange: "#D19121",
         cargo: "#CBCA6D",
         tawsLight: "#303441",
+        projectBG: "#23293f",
       },
     },
   },
