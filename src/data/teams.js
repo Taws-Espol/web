@@ -28,7 +28,7 @@ export const teams = [
     {
         name: "Diego Salazar",
         role: "Líder de Recursos Humanos",
-        descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tortor dictumst ridiculus malesuada at maecenas.",
+        descripcion: "Dar soporte en la gestión de eventos y procesos pretaws dentro del club",
         img: images.hr
     },
     {
