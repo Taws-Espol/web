@@ -1,7 +1,6 @@
 import React from "react";
 import Goal from "../../components/Goal";
 import Navbar from "../../components/Navbar";
-import Dots from "../../components/DotPattern";
 import Footer from "../../components/Footer";
 import Logo from "../../assets/logoTawsBig.png";
 import { goals } from "../../data/goals";
@@ -9,7 +8,6 @@ import { goals } from "../../data/goals";
 const About = () => {
   return (
     <div className="About bg-taws">
-      <Dots />
       <div className="Contenedor w-10/12 mx-auto">
         <Navbar item="about" />
         <div className="flex flex-col lg:grid lg:grid-cols-[1fr,1fr] px-4">

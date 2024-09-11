@@ -1,4 +1,4 @@
-import { images } from "./images";
+import { images } from "./images.js";
 
 export const teams = [
   {
@@ -18,13 +18,13 @@ export const teams = [
     role: "Vicepresidente Académico y Líder de Analítica de Datos",
     descripcion:
       "Como vicepresidente académico, lidero investigaciones, organizo actividades técnicas y promuevo el desarrollo y aprendizaje en ciencia de datos y desarrollo web.",
-    img: images.vpacademic,
+    img: images.academicvp,
   },
   {
     name: "Samira Carrillo",
     role: "Vicepresidente Administrativo",
     descripcion: "Estudiante de Economía en la ESPOL",
-    img: images.vpadministrative,
+    img: images.administrativevp,
   },
   {
     name: "Diego Salazar",

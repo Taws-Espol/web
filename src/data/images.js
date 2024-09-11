@@ -6,7 +6,7 @@ import HR from "../assets/Diego_Salazar.jpg";
 // import Welfare from "../assets/Nahin_Cevallos.png";
 import ExtRelations from "../assets/Francisco_Teran.jpg";
 import Academia from "../assets/Alex_Otero.jpg";
-import Arts from "../assets/Maria_Moyano.png";
+import Arts from "../assets/Maria_Jose_Moyano.jpg";
 import WebPage from "../assets/Braulio_Rivas.jpg";
 
 export const images = {
