@@ -1,22 +1,28 @@
 {
   "achievementsArray": [
     {
+      "year": 2023,
+      "achievements": [
+        {
+          "title": "El Hackathon V1",
+          "description": "Víctor Borbor, con su equipo, ganó El Hackathon V1, organizado por GYE Tech en Telconet"
+        }
+      ]
+    },
+    {
       "year": "2022",
       "achievements": [
         {
-          "title": "Logro1",
-          "description": "description1",
-          "icon": "😎"
+          "title": "Google Summer of Code",
+          "description": "Alex Vélez (miembro ya graduado) logró entrar al programa de código abierto, Google Summer of Code, en la organización Learning Equality."
         },
         {
           "title": "Logro2",
-          "description": "description2",
-          "icon": "😎"
+          "description": "description2"
         },
         {
           "title": "Logro3",
-          "description": "description3",
-          "icon": "😎"
+          "description": "description3"
         }
       ]
     },
@@ -24,19 +30,16 @@
       "year": "2021",
       "achievements": [
         {
-          "title": "Logro4",
-          "description": "description4",
-          "icon": "😎"
+          "title": "Ganadores Nasa Space Apps Challenge 2021",
+          "description": "Los miembros Joseph Ávila, Carlos Loja, Joangie Márquez y Alex Vélez (ya graduados) lograron ganar el Nasa Space Apps Challenge 2021 en la categoría Best Storytelling con su proyecto Space Travelers en el desafío The Trail to Mars: Can You Keep Your Crew Alive."
         },
         {
           "title": "Logro5",
-          "description": "description5",
-          "icon": "😎"
+          "description": "description5"
         },
         {
           "title": "Logro6",
-          "description": "description6",
-          "icon": "😎"
+          "description": "description6"
         }
       ]
     }

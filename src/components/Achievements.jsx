@@ -8,7 +8,7 @@ const Achievements = () => {
       <h1 className="text-tawsBlue font-semibold text-4xl mt-24 mb-4">
         <span className="text-white">$~</span> Logros
       </h1>
-      <div className="wrapper w-3/4 mx-auto">
+      <div className="wrapper lg:w-3/4 mx-auto">
         {achievementsArray.map((achievement, key) => {
           return (
             <div key={key}>
