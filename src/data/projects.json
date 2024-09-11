@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "name": "CLASIFICADOR DE DESECHOS",
+      "description": "Clasificador de desechos por imágenes y en tiempo real compuesto de 8 clases diferentes.",
+      "link": "https://www.google.com",
+      "mentor": "Johan Gilces",
+      "members": "Kevin Fernández, Diego Salazar"
+    },
+    {
+      "name": "RENTERS.IO",
+      "description": "Aplicación móvil para el registro de inventarios de emprendimientos que requieran llevar un manejo de sus productos y adicional un registro de quienes son los que solicitan el producto.",
+      "link": "https://github.com/caloja1014/renters_io_taws",
+      "mentor": "Carlos Loja",
+      "members": "Braulio Rivas, Fernando Álvarez, Francisco Terán"
+    },
+    {
+      "name": "LUCY: ASISTENTE PSICOLÓGICA",
+      "description": "Chatbot elaborado con un modelo open source que responde a temas referentes a la salud mental/emocional usando cómo base podcasts de psicología. ",
+      "link": "https://www.google.com",
+      "mentor": "Roberto Patiño",
+      "members": "Víctor Borbor, George Guerrero"
+    },
+    {
+      "name": "CANCER DETECTION",
+      "description": "Sistema de detección de tumores cancerígenos con el uso de aprendizaje supervisado y no supervisado en imágenes de tejido humano.",
+      "link": "https://www.google.com",
+      "mentor": "Geovanny Rojas",
+      "members": "Erick Lorenzo, Francisco Noriega"
+    },
+    {
+      "name": "SMART CAMPUS ACCESS",
+      "description": "Sistema de acceso para usuarios a instalaciones con garitas mediante algoritmos de machine learning y deep learning para registrar y validar placas de los vehículos que ingresan. ",
+      "link": "https://www.google.com",
+      "mentor": "Axcel Espinoza",
+      "members": "Anthony Santacruz, Cristian Intriago, Daniel Rojas"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,47 +7,53 @@
   --primary: rebeccapurple;
   --secondary: white;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-.wrapper{
+
+.Contenedor {
+  border-left: #1ac8ff 3px solid;
+  padding-left: 30px;
+}
+
+.wrapper {
   max-width: 1080px;
   padding: 0 20px;
   position: relative;
 }
 
-.wrapper .center-line{
+.wrapper .center-line {
   position: absolute;
   height: 90%;
   width: 2px;
-  background: #1AC8FF;
+  background: #1ac8ff;
   left: 13.5%;
   top: 20px;
   transform: translateX(-50%);
 }
-.wrapper .row{
+.wrapper .row {
   display: flex;
 }
-.wrapper .row-1{
+.wrapper .row-1 {
   padding-top: 20px;
   justify-content: flex-start;
 }
-.wrapper .row-2{
+.wrapper .row-2 {
   margin-left: 15%;
 }
-.wrapper .row section{
+.wrapper .row section {
   padding: 20px;
   position: relative;
 }
 
 .row section .icon,
-.center-line .scroll-icon{
+.center-line .scroll-icon {
   position: absolute;
   height: 50px;
   width: 50px;
@@ -56,12 +62,14 @@ html{
   color: #3ea0e2;
   border-radius: 50%;
   font-size: 17px;
-  box-shadow:  inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  box-shadow:
+    inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
   margin-left: 4.5%;
 }
 
 .icon2,
-.center-line .scroll-icon{
+.center-line .scroll-icon {
   position: absolute;
   height: 50px;
   width: 50px;
@@ -70,55 +78,56 @@ html{
   color: #3ea0e2;
   border-radius: 50%;
   font-size: 17px;
-  box-shadow:  inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  box-shadow:
+    inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
-.row-1 section .icon{
+.row-1 section .icon {
   top: 15px;
   right: -60px;
 }
-.row-2 section .icon{
+.row-2 section .icon {
   top: 15px;
   left: -60px;
 }
-.row section .details .title{
+.row section .details .title {
   font-size: 22px;
   font-weight: 600;
 }
-.row section p{
+.row section p {
   margin: 10px 0 17px 0;
 }
-
 
 *::-webkit-scrollbar-thumb {
   background-color: var(--secondary);
   border-radius: 14px;
   border: 3px solid var(--primary);
 }
-@media(max-width: 790px){
-  .wrapper .center-line{
+@media (max-width: 790px) {
+  .wrapper .center-line {
     display: none;
   }
-  .wrapper .row{
+  .wrapper .row {
     margin: 30px 0 3px 60px;
   }
-  .wrapper .row section{
+  .wrapper .row section {
     width: 100%;
   }
-  .row-1 section::before{
+  .row-1 section::before {
     left: -7px;
   }
-  .row-1 section .icon{
+  .row-1 section .icon {
     left: -60px;
   }
 }
-@media(max-width: 440px){
+@media (max-width: 440px) {
   .wrapper .center-line,
   .row section::before,
-  .row section .icon{
+  .row section .icon {
     display: none;
   }
-  .wrapper .row{
+  .wrapper .row {
     margin: 10px 0;
   }
 }

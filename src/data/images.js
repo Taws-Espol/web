@@ -1,14 +1,23 @@
-const images = {
-    mentor: require("src/assets/Carmen_Vaca.png"), //Carmen Vaca
-    president: require("src/assets/Victor_Borbor.png"), //Victor Borbor
-    academicvp: require("src/assets/Angelo_Zurita.jpg"), //Angelo Zurita
-    administrativevp: require("src/assets/Samira_Carrillo.jpeg"), //Samira Carrillo
-    hr: require("src/assets/Diego_Salazar.jpg"), //Diego Salazar
-    welfare: require("src/assets/Nahin_Cevallos.png"), //Nahin Cevallos
-    extrelations: require("src/assets/Francisco_Teran.jpg"), //Francisco Terán
-    academia: require("src/assets/Alex_Otero.jpg"), //Alex Otero
-    arts: require("src/assets/Maria_Jose_Moyano.jpg"), //María José Moyano
-    webpage: require("src/assets/Braulio_Rivas.jpg"), //Braulio Rivas
-  };
-  
-  export default images;
+import Mentor from "../assets/Carmen_Vaca.png";
+//import President from "../assets/Victor_Borbor.png";
+import AcademicVP from "../assets/Angelo_Zurita.jpg";
+// import AdministrativeVP from "../assets/Samira_Carrilo.jpeg";
+import HR from "../assets/Diego_Salazar.jpg";
+// import Welfare from "../assets/Nahin_Cevallos.png";
+import ExtRelations from "../assets/Francisco_Teran.jpg";
+import Academia from "../assets/Alex_Otero.jpg";
+import Arts from "../assets/Maria_Moyano.png";
+import WebPage from "../assets/Braulio_Rivas.jpg";
+
+export const images = {
+  mentor: Mentor, //Carmen Vaca,
+  president: null, // President, //Victor Borbor
+  academicvp: AcademicVP, //Angelo Zuritaca
+  administrativevp: null, // AdministrativeVP, //Samira Carrillo
+  hr: HR, //Diego Salazar
+  welfare: null, // Welfare, //Nahin Cevallos
+  extrelations: ExtRelations, //Francisco Terán
+  academia: Academia, //Alex Otero
+  arts: Arts, //María José Moyano
+  webpage: WebPage, //Braulio Rivas
+};
