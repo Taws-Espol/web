@@ -17,7 +17,7 @@ export const EventList = () => {
 };
 
 export const EventCard = ({ event, index }) => {
-  const [, mes, dia] = getLocalizedDataFromDate(event.date);
+  const [year, mes, dia] = getLocalizedDataFromDate(event.date);
 
   return (
     <div
@@ -55,6 +55,8 @@ export const EventCard = ({ event, index }) => {
         <p className="mt-4 text-sm whitespace-pre-wrap">{event.description}</p>
       </div>
       <div className="flex flex-col justify-center items-center text-center mb-4">
+        <p className="text-xl font-extrabold">{year}</p>{" "}
+        {/* Mostrar el año encima del mes */}
         <p className="text-2xl font-extrabold">{mes}</p>
         <p className="text-4xl text-cargo font-medium">{dia}</p>
         <p className="text-2xl font-medium">10:00</p>
