@@ -85,9 +85,8 @@ function Cards() {
             key={index}
             name={item.name}
             major={item.major}
-            frase={item.frase}
             faculty={item.facultad}
-            imageUrl="https://via.placeholder.com/600x500"
+            imageUrl={item.photo}
             socialLinks={item.redes}
           />
         ))}
