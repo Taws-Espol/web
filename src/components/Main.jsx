@@ -19,7 +19,7 @@ const Main = () => {
               formación integral de jóvenes investigadores precursores en el
               desarrollo de tecnologías de la información.
             </p>
-            <Link to="/about" target="_blank">
+            <Link to="/about">
               <button className="bg-tawsBlue rounded-full p-2 w-1/2 mt-2 font-semibold">
                 Conoce más
               </button>

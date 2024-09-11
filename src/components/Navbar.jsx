@@ -40,8 +40,6 @@ const Navbar = (props) => {
               >
                 <a
                   href={link.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="text-white font-medium hover:text-gray-400 duration-500'"
                 >
                   {link.name}
