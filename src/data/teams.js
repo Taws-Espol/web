@@ -10,7 +10,8 @@ export const teams = [
   {
     name: "Víctor Borbor",
     role: "Presidente",
-    descripcion: "Estudiante de Computación en la ESPOL",
+    descripcion:
+      "Encargado de dirigir cada una de las comisiones dentro del club.",
     img: images.president,
   },
   {

@@ -15,7 +15,7 @@ const Team = () => {
           return (
             <div className="flex flex-col items-center mb-8" key={persona.name}>
               <img
-                className="w-32 h-32 rounded-full mx-auto mb-4"
+                className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 src={persona.img}
                 alt={persona.name}
               />
