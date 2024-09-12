@@ -22,15 +22,17 @@ const Projects = () => {
               <p className="my-3">{project.description}</p>
               <p className="mt-4">Mentor: {project.mentor}</p>
               <p className="my-4">Miembros: {project.members}</p>
-              <a
-                href={project.link}
-                className="text-orange"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="text-white">Link: </span>
-                {project.name}
-              </a>
+              {project.link && (
+                <a
+                  href={project.link}
+                  className="text-orange"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="text-white">Link: </span>
+                  {project.name}
+                </a>
+              )}
             </div>
           );
         })}
