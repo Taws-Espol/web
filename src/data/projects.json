@@ -8,6 +8,12 @@
       "members": "Mariu Andrade"
     },
     {
+      "name": "OBJECT TRACKING",
+      "description": "Este repositorio es un proyecto integral de código abierto que demuestra la integración de la detección y el seguimiento de objetos utilizando el algoritmo de detección de objetos YOLOv8 y Streamlit, un popular marco de aplicación web Python para crear aplicaciones web interactivas. Este proyecto proporciona una interfaz fácil de usar y personalizable que puede detectar y rastrear objetos en transmisiones de video en tiempo real.",
+      "link": "https://github.com/isabellaim/PRETAWS",
+      "members": "Isabella Martín"
+    },
+    {
       "name": "RECOMMENDER",
       "description": "Sistema de recomendacion de peliculas/espectaculos/series",
       "link": "https://github.com/KevinFernandez21/Proyecto-Taws",
@@ -41,6 +47,18 @@
       "description": "Sistema de acceso para usuarios a instalaciones con garitas mediante algoritmos de machine learning y deep learning para registrar y validar placas de los vehículos que ingresan. ",
       "mentor": "Axcel Espinoza",
       "members": "Anthony Santacruz, Cristian Intriago, Daniel Rojas"
+    },
+    {
+      "name": "PPL Adventure",
+      "description": "PPL Adventure es un juego de aventura y arcade ambientado en el campus e inspirado en los obstáculos y facilidades de los estudiantes novatos del campus. Su estilo de juego está enfocado principalmente en los eventos arcade con un componente de historia en segundo plano.",
+      "mentor": "Jonathan García",
+      "link": "https://github.com/Taws-Espol/PreTawsG5-Unity",
+      "members": "Camila Reyes, Joshua Cobos"
+    },
+    {
+      "name": "Latam News Dashboard",
+      "description": "El proyecto consiste en un dashboard exploratorio de noticias en tres países de latinoamérica: Ecuador, México y Venezuela. En este se analizan categorías de crimen, política, corrupción, salud, religión, desempleo, educación, economía, y deportes. Para ello se hace uso de cuatro tipos de gráficos, siendo estos de barra, radar, timeseries y wordclouds.",
+      "link": "https://github.com/2Dsa3/DashBoardWeb-PreTaws/tree/master"
     }
   ]
 }

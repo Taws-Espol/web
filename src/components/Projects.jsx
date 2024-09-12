@@ -20,8 +20,12 @@ const Projects = () => {
               </span>
               <h2 className="text-xl font-bold mb-3 mt-16">{project.name}</h2>
               <p className="my-3">{project.description}</p>
-              <p className="mt-4">Mentor: {project.mentor}</p>
-              <p className="my-4">Miembros: {project.members}</p>
+              {project.mentor && (
+                <p className="mt-4">Mentor: {project.mentor}</p>
+              )}
+              {project.members && (
+                <p className="my-4">Miembros: {project.members}</p>
+              )}
               {project.link && (
                 <a
                   href={project.link}

@@ -196,7 +196,7 @@ export const members = [
     frase: "",
     facultad: "FIEC",
     redes: {
-      github: "https://loorpaulina.github.io/LoorPaulina/",
+      github: "https://github.com/LoorPaulina",
       linkedin: "https://www.linkedin.com/in/paulina-loor-tubay-79711a214",
       twitter: "",
     },
