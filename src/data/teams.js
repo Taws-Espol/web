@@ -4,14 +4,14 @@ export const teams = [
   {
     name: "Carmen Vaca",
     role: "Mentora",
-    descripcion: "PhD. en Data Science, Politécnico de Milano",
+    descripcion: "PhD. en Data Science, Politécnico de Milano, guía del club.",
     img: images.mentor,
   },
   {
     name: "Víctor Borbor",
     role: "Presidente",
     descripcion:
-      "Encargado de dirigir cada una de las comisiones dentro del club.",
+      "Encargado de dirigir cada una de las comisiones dentro del club para el desarrollo satisfactorio de proyectos e investigación.",
     img: images.president,
   },
   {
@@ -24,28 +24,29 @@ export const teams = [
   {
     name: "Samira Carrillo",
     role: "Vicepresidente Administrativo",
-    descripcion: "Estudiante de Economía en la ESPOL",
+    descripcion:
+      "Encargada de administrar los recursos, y redistribuirlos dependiendo de las necesidades de los proyectos en marcha.",
     img: images.administrativevp,
   },
   {
     name: "Diego Salazar",
     role: "Líder de Recursos Humanos",
     descripcion:
-      "Dar soporte en la gestión de eventos y procesos pretaws dentro del club",
+      "Dar soporte en la gestión de eventos y procesos pretaws dentro del club.",
     img: images.hr,
   },
   {
     name: "Nahin Cevallos",
     role: "Líder de Bienestar",
     descripcion:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean massa tortor dictumst ridiculus malesuada at maecenas.",
+      "Mejorar la experiencia y vivencia entre los miembros del club.",
     img: images.welfare,
   },
   {
     name: "Francisco Terán",
     role: "Líder de Relaciones Externas",
     descripcion:
-      "Me encargo de redactar correos para eventos, gestionar préstamos de instalaciones y solicitudes con la Gerencia de Bienestar Politécnico (GBP), y buscar contactos locales e internacionales para establecer alianzas estratégicas",
+      "Me encargo de redactar correos para eventos, gestionar préstamos de instalaciones y solicitudes con la Gerencia de Bienestar Politécnico (GBP), y buscar contactos locales e internacionales para establecer alianzas estratégicas.",
     img: images.extrelations,
   },
   {

@@ -13,7 +13,10 @@ const Team = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-14 mx-4 md:mx-12">
         {teams.map((persona) => {
           return (
-            <div className="flex flex-col items-center mb-8" key={persona.name}>
+            <div
+              className="flex flex-col items-center mb-8 mx-4"
+              key={persona.name}
+            >
               <img
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 src={persona.img}
