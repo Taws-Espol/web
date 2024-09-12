@@ -27,7 +27,7 @@ const Navbar = (props) => {
             TAWS
           </span>
           <ul
-            className={`md:flex md:justify-evenly absolute md:static w-full md:w-auto md:pl-0 transition-all duration-300 ease-in bg-tawsLight text-center ${
+            className={`md:flex md:justify-evenly absolute md:static w-full md:w-auto md:pl-0 transition-all duration-300 ease-in bg-tawsLight text-center z-50 ${
               open ? "top-20" : "top-[-490px]"
             }`}
           >
