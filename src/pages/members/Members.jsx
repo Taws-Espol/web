@@ -5,6 +5,8 @@ import Footer from "../../components/Footer";
 import { members } from "../../data/members.js";
 import CardInformation from "./CardInformation";
 
+members.sort((memberA, memberB) => memberA.name.localeCompare(memberB.name));
+
 function Cards() {
   const ITEMS_PER_PAGE = 6;
   const [textoBusqueda, setTextoBusqueda] = useState("");

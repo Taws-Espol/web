@@ -72,7 +72,11 @@ const CardInformation = ({
     >
       <>
         <div className={`p-4 text-center flex-grow ${facultyColor}`}>
-          <img src={imageUrl} alt={name} className="p-2 rounded-xl" />
+          <img
+            src={imageUrl}
+            alt={name}
+            className="p-2 rounded-xl object-cover w-full max-h-64"
+          />
           <h2
             className={`text-black font-black text-[29px] p-2 ${facultyTextColor}`}
           >
