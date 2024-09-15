@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext, createContext } from "react";
-import { events } from "../data/events.json";
+import { events } from "../data/events.js";
 
 const EventContext = createContext();
 

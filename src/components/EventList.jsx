@@ -1,7 +1,6 @@
 import React from "react";
 import { useEventContext } from "../context/EventContext";
 import { getLocalizedDataFromDate } from "../utils";
-import imageEvent from "../assets/image_sample.png";
 
 export const EventList = () => {
   const { events } = useEventContext();
@@ -26,7 +25,7 @@ export const EventCard = ({ event, index }) => {
       hover:scale-105 hover:brightness-90 active:brightness-105 active:scale-95 transition-transform ease-out duration-500"
     >
       <div className="my-auto mx-auto">
-        <img src={imageEvent} alt="evento" className="object-cover" />
+        <img src={event.img} alt="evento" className="object-cover" />
       </div>
       <div className="p-4 flex flex-col my-4">
         <h2 className="text-lg font-semibold">{event.name}</h2>
