@@ -35,6 +35,9 @@ importers:
       tailwindcss:
         specifier: ^3.4.6
         version: 3.4.6
+      taws-front:
+        specifier: 'file:'
+        version: file:(postcss@8.4.31)
     devDependencies:
       '@eslint/js':
         specifier: ^9.7.0
@@ -1676,6 +1679,9 @@ packages:
     resolution: {integrity: sha512-1uRHzPB+Vzu57ocybfZ4jh5Q3SdlH7XW23J5sQoM9LhE9eIOlzxer/3XPSsycvih3rboRsvt0QCmzSrqyOYUIA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
+
+  'taws-front@file:':
+    resolution: {directory: '', type: directory}
 
   text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
@@ -3603,6 +3609,21 @@ snapshots:
       resolve: 1.22.8
       sucrase: 3.34.0
     transitivePeerDependencies:
+      - ts-node
+
+  taws-front@file:(postcss@8.4.31):
+    dependencies:
+      '@material-tailwind/react': 2.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tabler/icons-react': 3.11.0(react@18.3.1)
+      autoprefixer: 10.4.19(postcss@8.4.31)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-icons: 5.2.1(react@18.3.1)
+      react-router-dom: 6.25.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-social-icons: 6.17.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      tailwindcss: 3.4.6
+    transitivePeerDependencies:
+      - postcss
       - ts-node
 
   text-table@0.2.0: {}
