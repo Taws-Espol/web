@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
+import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
   const [open, setOpen] = useState(false);
@@ -38,12 +39,12 @@ const Navbar = (props) => {
                   props.item === link.selected ? "border-b-2" : ""
                 }  md:my-0 my-7`}
               >
-                <a
-                  href={link.link}
-                  className="text-white font-medium hover:text-gray-400 duration-500'"
+                <Link
+                  to={link.link}
+                  className="text-white font-medium hover:text-gray-400 duration-500"
                 >
                   {link.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
