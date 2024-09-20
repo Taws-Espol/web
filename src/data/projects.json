@@ -8,12 +8,6 @@
       "members": "Mariu Andrade"
     },
     {
-      "name": "OBJECT TRACKING",
-      "description": "Este repositorio es un proyecto integral de código abierto que demuestra la integración de la detección y el seguimiento de objetos utilizando el algoritmo de detección de objetos YOLOv8 y Streamlit, un popular marco de aplicación web Python para crear aplicaciones web interactivas. Este proyecto proporciona una interfaz fácil de usar y personalizable que puede detectar y rastrear objetos en transmisiones de video en tiempo real.",
-      "link": "https://github.com/isabellaim/PRETAWS",
-      "members": "Isabella Martín"
-    },
-    {
       "name": "RECOMMENDER",
       "description": "Sistema de recomendacion de peliculas/espectaculos/series",
       "link": "https://github.com/KevinFernandez21/Proyecto-Taws",
