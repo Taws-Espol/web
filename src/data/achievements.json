@@ -1,22 +1,29 @@
 {
   "achievementsArray": [
     {
+      "year": 2023,
+      "achievements": [
+        {
+          "title": "Nasa Space Apps Challenge GYE 2023",
+          "description": "Johan Gilces, Jonathan Gorotiza y Henry Siavichay ganaron primer lugar en el Nasa Space Apps Challenge 2023 en Guayaquil."
+        }
+      ]
+    },
+    {
       "year": "2022",
       "achievements": [
         {
-          "title": "Logro1",
-          "description": "description1",
-          "icon": "😎"
-        },
+          "title": "Google Summer of Code",
+          "description": "Jose Siguenza logró entrar al programa de código abierto, Google Summer of Code, en la organización Learning Equality."
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "achievements": [
         {
-          "title": "Logro2",
-          "description": "description2",
-          "icon": "😎"
-        },
-        {
-          "title": "Logro3",
-          "description": "description3",
-          "icon": "😎"
+          "title": "CERN",
+          "description": "Enmanuel Magallanes y María Belen participaron en el CERN(Organización Europea para la Investigación Nuclear)."
         }
       ]
     },
@@ -24,19 +31,8 @@
       "year": "2021",
       "achievements": [
         {
-          "title": "Logro4",
-          "description": "description4",
-          "icon": "😎"
-        },
-        {
-          "title": "Logro5",
-          "description": "description5",
-          "icon": "😎"
-        },
-        {
-          "title": "Logro6",
-          "description": "description6",
-          "icon": "😎"
+          "title": "Nasa Space Apps Challenge 2021",
+          "description": "Los miembros Joseph Ávila, Carlos Loja, Jaime Pizarro, Joangie Márquez y Alex Vélez (ya graduados) lograron ganar el Nasa Space Apps Challenge 2021 a nivel global! en la categoría Best Storytelling con su proyecto Space Travelers en el desafío The Trail to Mars: Can You Keep Your Crew Alive."
         }
       ]
     }

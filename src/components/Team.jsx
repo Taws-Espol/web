@@ -1,67 +1,32 @@
 import React from "react";
-import { teams } from "../data/teams";
-
-const mentor = teams.filter((member) => member.org_structure === "Mentor");
-
-const directiva = teams.filter(
-  (member) => member.org_structure === "Directiva",
-);
-
-const lideres = teams.filter((member) => member.org_structure === "Lider");
+import { teams } from "../data/teams.js";
 
 const Team = () => {
-  const year = new Date().getFullYear();
+  let anio = new Date().getFullYear();
 
   return (
     <>
       <h1 className="text-tawsBlue font-semibold text-4xl mt-28">
         <span className="text-white">$~ </span>Equipo de liderazgo{" "}
-        {year + "-" + (year + 1)}
+        {anio + "-" + (anio + 1)}
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-14 mx-4 md:mx-12">
-        {mentor.map((person) => {
+        {teams.map((persona) => {
           return (
-            <div className="flex flex-col items-center mb-8" key={person.name}>
+            <div
+              className="flex flex-col items-center mb-8 mx-4"
+              key={persona.name}
+            >
               <img
-                className="w-32 h-32 rounded-full mx-auto mb-4"
-                src={person.img}
-                alt={person.name}
+                className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+                src={persona.img}
+                alt={persona.name}
               />
               <div className="text-center">
-                <h2 className="text-white font-bold mb-2">{person.name}</h2>
-                <p className="text-cargo mb.2">{person.position}</p>
-                <p className="text-white">{person.description}</p>
+                <h2 className="text-white font-bold mb-2">{persona.name}</h2>
+                <p className="text-cargo mb-2">{persona.role}</p>
+                <p className="text-white">{persona.descripcion}</p>
               </div>
-            </div>
-          );
-        })}
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4 xl:grid-cols-5 mt-8 mx-4 md:mx-14">
-        {directiva.map((person) => {
-          return (
-            <div className="text-center mb-8" key={person.name}>
-              <img
-                className="w-32 h-32 rounded-full mx-auto mb-4"
-                src={person.img}
-                alt={person.name}
-              />
-              <h2 className="text-white font-bold mb-3">{person.name}</h2>
-              <p className="text-cargo mb-2">{person.position}</p>
-            </div>
-          );
-        })}
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-8 mx-4 md:mx-14">
-        {lideres.map((person) => {
-          return (
-            <div className="text-center mb-8" key={person.name}>
-              <img
-                className="w-32 h-32 rounded-full mx-auto mb-4"
-                src={person.img}
-                alt={person.name}
-              />
-              <h2 className="text-white font-bold mb-2">{person.name}</h2>
-              <p className="text-cargo mb-2">{person.position}</p>
             </div>
           );
         })}

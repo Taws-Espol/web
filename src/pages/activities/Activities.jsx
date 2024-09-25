@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-import Dots from "../../components/DotPattern";
 import Footer from "../../components/Footer";
 import { EventList } from "../../components/EventList.jsx";
 import { EventProvider } from "../../context/EventContext.jsx";
@@ -12,7 +11,6 @@ function Header() {
 const Activities = () => {
   return (
     <div className="Members bg-taws">
-      <Dots />
       <div className="Contenedor w-10/12 mx-auto">
         <Navbar item="eventos" />
         <Header />

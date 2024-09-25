@@ -5,6 +5,8 @@ import Footer from "../../components/Footer";
 import { members } from "../../data/members.js";
 import CardInformation from "./CardInformation";
 
+members.sort((memberA, memberB) => memberA.name.localeCompare(memberB.name));
+
 function Cards() {
   const ITEMS_PER_PAGE = 6;
   const [textoBusqueda, setTextoBusqueda] = useState("");
@@ -85,9 +87,8 @@ function Cards() {
             key={index}
             name={item.name}
             major={item.major}
-            frase={item.frase}
             faculty={item.facultad}
-            imageUrl="https://via.placeholder.com/600x500"
+            imageUrl={item.photo}
             socialLinks={item.redes}
           />
         ))}

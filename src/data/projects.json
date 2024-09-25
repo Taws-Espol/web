@@ -1,9 +1,16 @@
 {
   "projects": [
     {
-      "name": "CLASIFICADOR DE DESECHOS",
-      "description": "Clasificador de desechos por imágenes y en tiempo real compuesto de 8 clases diferentes.",
-      "link": "https://www.google.com",
+      "name": "COOKFINDER",
+      "description": "Desarollo de Aplicación que involucra visión por computadora para detectar seis ingredientes (Pollo, carne, tomate, cebolla, verde y papa) a partir de contenido multimedia (fotos, videos, camara web). Utiliza la API de OpenAI para generar recetas detalladas con los ingredientes detectados.",
+      "link": "https://github.com/Maruu03/COOKFINDER",
+      "mentor": "",
+      "members": "Mariu Andrade"
+    },
+    {
+      "name": "RECOMMENDER",
+      "description": "Sistema de recomendacion de peliculas/espectaculos/series",
+      "link": "https://github.com/KevinFernandez21/Proyecto-Taws",
       "mentor": "Johan Gilces",
       "members": "Kevin Fernández, Diego Salazar"
     },
@@ -14,26 +21,38 @@
       "mentor": "Carlos Loja",
       "members": "Braulio Rivas, Fernando Álvarez, Francisco Terán"
     },
+
     {
       "name": "LUCY: ASISTENTE PSICOLÓGICA",
       "description": "Chatbot elaborado con un modelo open source que responde a temas referentes a la salud mental/emocional usando cómo base podcasts de psicología. ",
-      "link": "https://www.google.com",
+      "link": "https://github.com/RobertoPatino1/L.U.C.Y",
       "mentor": "Roberto Patiño",
       "members": "Víctor Borbor, George Guerrero"
     },
     {
       "name": "CANCER DETECTION",
       "description": "Sistema de detección de tumores cancerígenos con el uso de aprendizaje supervisado y no supervisado en imágenes de tejido humano.",
-      "link": "https://www.google.com",
+      "link": "https://github.com/FraNoriega/Proyecto_Skin_Cancer",
       "mentor": "Geovanny Rojas",
       "members": "Erick Lorenzo, Francisco Noriega"
     },
     {
       "name": "SMART CAMPUS ACCESS",
       "description": "Sistema de acceso para usuarios a instalaciones con garitas mediante algoritmos de machine learning y deep learning para registrar y validar placas de los vehículos que ingresan. ",
-      "link": "https://www.google.com",
       "mentor": "Axcel Espinoza",
       "members": "Anthony Santacruz, Cristian Intriago, Daniel Rojas"
+    },
+    {
+      "name": "PPL Adventure",
+      "description": "PPL Adventure es un juego de aventura y arcade ambientado en el campus e inspirado en los obstáculos y facilidades de los estudiantes novatos del campus. Su estilo de juego está enfocado principalmente en los eventos arcade con un componente de historia en segundo plano.",
+      "mentor": "Jonathan García",
+      "link": "https://github.com/Taws-Espol/PreTawsG5-Unity",
+      "members": "Camila Reyes, Joshua Cobos"
+    },
+    {
+      "name": "Latam News Dashboard",
+      "description": "El proyecto consiste en un dashboard exploratorio de noticias en tres países de latinoamérica: Ecuador, México y Venezuela. En este se analizan categorías de crimen, política, corrupción, salud, religión, desempleo, educación, economía, y deportes. Para ello se hace uso de cuatro tipos de gráficos, siendo estos de barra, radar, timeseries y wordclouds.",
+      "link": "https://github.com/2Dsa3/DashBoardWeb-PreTaws/tree/master"
     }
   ]
 }

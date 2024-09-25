@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
+import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
   const [open, setOpen] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = (props) => {
             TAWS
           </span>
           <ul
-            className={`md:flex md:justify-evenly absolute md:static w-full md:w-auto md:pl-0 transition-all duration-300 ease-in bg-tawsLight text-center ${
+            className={`md:flex md:justify-evenly absolute md:static w-full md:w-auto md:pl-0 transition-all duration-300 ease-in bg-tawsLight text-center z-50 ${
               open ? "top-20" : "top-[-490px]"
             }`}
           >
@@ -38,14 +39,12 @@ const Navbar = (props) => {
                   props.item === link.selected ? "border-b-2" : ""
                 }  md:my-0 my-7`}
               >
-                <a
-                  href={link.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white font-medium hover:text-gray-400 duration-500'"
+                <Link
+                  to={link.link}
+                  className="text-white font-medium hover:text-gray-400 duration-500"
                 >
                   {link.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
