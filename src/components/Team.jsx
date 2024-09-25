@@ -10,7 +10,7 @@ const Team = () => {
         <span className="text-white">$~ </span>Equipo de liderazgo{" "}
         {anio + "-" + (anio + 1)}
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-14 mx-4 md:mx-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 mt-14 mx-4 md:mx-12">
         {teams.map((persona) => {
           return (
             <div
