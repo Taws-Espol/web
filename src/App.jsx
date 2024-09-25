@@ -3,12 +3,13 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Sections from "./components/Sections";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 import { Navigate } from "react-router-dom";
 import Members from "./pages/members/Members";
 import About from "./pages/about/About";
 import Activities from "./pages/activities/Activities";
+import { createBrowserRouter } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
 
 function Home() {
   return (
@@ -23,18 +24,38 @@ function Home() {
   );
 }
 
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/miembros",
+      element: <Members />,
+    },
+    {
+      path: "/eventos",
+      element: <Activities />,
+    },
+    {
+      path: "/about",
+      element: <About />,
+    },
+    {
+      path: "/*",
+      element: <Navigate to="/" />,
+    },
+  ],
+  {
+    basename: import.meta.env.BASE_URL,
+  },
+);
+
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/miembros" element={<Members />} />
-          <Route path="/eventos" element={<Activities />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/*" element={<Navigate to="/" />} />
-        </Routes>
-      </BrowserRouter>
+      <RouterProvider router={router} />
     </>
   );
 }
