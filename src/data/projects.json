@@ -4,7 +4,7 @@
       "name": "COOKFINDER",
       "description": "Desarollo de Aplicación que involucra visión por computadora para detectar seis ingredientes (Pollo, carne, tomate, cebolla, verde y papa) a partir de contenido multimedia (fotos, videos, camara web). Utiliza la API de OpenAI para generar recetas detalladas con los ingredientes detectados.",
       "link": "https://github.com/Maruu03/COOKFINDER",
-      "mentor": "",
+      "mentor": "Johan Gilces",
       "members": "Mariu Andrade, Isabella Martín, Nahín Espinoza"
     },
     {
