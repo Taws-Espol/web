@@ -8,8 +8,8 @@
       "members": "Mariu Andrade, Isabella Martín, Nahín Espinoza"
     },
     {
-      "name": "RECOMMENDER",
-      "description": "Sistema de recomendacion de peliculas/espectaculos/series",
+      "name": "Clasificador de desechos",
+      "description": "Clasifica 8 tipos de materiales: baterías, desechos biológicos, cartón, vidrios, metales, papel, plástico y otros mediante visión por computador",
       "link": "https://github.com/KevinFernandez21/Proyecto-Taws",
       "mentor": "Johan Gilces",
       "members": "Kevin Fernández, Diego Salazar"
