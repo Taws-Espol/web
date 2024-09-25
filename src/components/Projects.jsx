@@ -18,16 +18,7 @@ const Projects = () => {
               <span className="icon2 fas fa-globe bg-tawsLight flex items-center justify-center">
                 <BsFileCode size={30} classname="flex items-center" />
               </span>
-              <h2 className="text-xl font-bold mb-3 mt-16">
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline"
-                >
-                  {project.name}
-                </a>
-              </h2>
+              <h2 className="text-xl font-bold mb-3 mt-16">{project.name}</h2>
               <p className="my-3">{project.description}</p>
               {project.mentor && (
                 <p className="mt-4">Mentor: {project.mentor}</p>
