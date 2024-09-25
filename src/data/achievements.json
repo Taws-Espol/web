@@ -1,6 +1,15 @@
 {
   "achievementsArray": [
     {
+      "year": 2024,
+      "achievements": [
+        {
+          "title": "Google Summer of Code",
+          "description": "Braulio Rivas participó en el Google Summer of Code 2024 bajo la organización CERN-HSF"
+        }
+      ]
+    },
+    {
       "year": 2023,
       "achievements": [
         {
@@ -14,7 +23,7 @@
       "achievements": [
         {
           "title": "Google Summer of Code",
-          "description": "Jose Siguenza logró entrar al programa de código abierto, Google Summer of Code, en la organización Learning Equality."
+          "description": "Jose Siguenza logró entrar al programa de código abierto, Google Summer of Code 2022."
         }
       ]
     },
@@ -23,7 +32,7 @@
       "achievements": [
         {
           "title": "CERN",
-          "description": "Enmanuel Magallanes y María Belen participaron en el CERN(Organización Europea para la Investigación Nuclear)."
+          "description": "Enmanuel Magallanes y María Belen participaron en el CERN (Organización Europea para la Investigación Nuclear)."
         }
       ]
     },
