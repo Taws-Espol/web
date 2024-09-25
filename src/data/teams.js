@@ -16,58 +16,65 @@ export const teams = [
   },
   {
     name: "Angelo Zurita",
-    role: "Vicepresidente Académico y Líder de Analítica de Datos",
+    role: "Vicepresidente Académico",
     descripcion:
-      "Como vicepresidente académico, lidero investigaciones, organizo actividades técnicas y promuevo el desarrollo y aprendizaje en ciencia de datos y desarrollo web.",
+      "Liderar investigaciones, organizar actividades técnicas y promuever el desarrollo y aprendizaje en ciencia de datos y desarrollo web.",
     img: images.academicvp,
   },
   {
     name: "Samira Carrillo",
     role: "Vicepresidente Administrativo",
     descripcion:
-      "Encargada de administrar los recursos, y redistribuirlos dependiendo de las necesidades de los proyectos en marcha.",
+      "Encargada de gestionar los recursos y redistribuirlos según las necesidades de los proyectos en curso.",
     img: images.administrativevp,
   },
   {
     name: "Diego Salazar",
     role: "Líder de Recursos Humanos",
     descripcion:
-      "Dar soporte en la gestión de eventos y procesos pretaws dentro del club.",
+      "Encargado de dar soporte en la gestión de eventos y procesos pretaws dentro del club.",
     img: images.hr,
+  },
+  {
+    name: "Luis Romero",
+    role: "Líder de Analítica de Datos",
+    descripcion:
+      "Encargado del área de analítica y ciencia de datos, aplicar técnicas para obtener insights de valor a partir de la data.",
+    img: images.Anlytics,
   },
   {
     name: "Nahin Cevallos",
     role: "Líder de Bienestar",
     descripcion:
-      "Mejorar la experiencia y vivencia entre los miembros del club.",
+      "Encargado de mejorar la experiencia y vivencia entre los miembros del club.",
     img: images.welfare,
   },
   {
     name: "Francisco Terán",
     role: "Líder de Relaciones Externas",
     descripcion:
-      "Me encargo de redactar correos para eventos, gestionar préstamos de instalaciones y solicitudes con la Gerencia de Bienestar Politécnico (GBP), y buscar contactos locales e internacionales para establecer alianzas estratégicas.",
+      "Encargado de redactar correos para eventos, gestionar préstamos de instalaciones y solicitudes con la Gerencia de Bienestar Politécnico (GBP), y buscar contactos locales e internacionales para establecer alianzas estratégicas.",
     img: images.extrelations,
   },
   {
     name: "Alex Otero",
     role: "Líder de Academia y Divulgación",
     descripcion:
-      "Encargado de transmisión de conocimiento dentro y fuera del club",
+      "Encargado de la transmisión de conocimiento dentro y fuera del club.",
     img: images.academia,
   },
   {
     name: "María José Moyano",
     role: "Líder de Artes y Difusión",
     descripcion:
-      "Gestión de relaciones públicas a través de la creación de contenido audiovisual, incluyendo publicaciones y videos para diversas redes sociales.",
+      "Encargada de la gestión de relaciones públicas a través de la creación de contenido audiovisual, incluyendo publicaciones y videos para diversas redes sociales.",
     img: images.arts,
   },
   {
     name: "Braulio Rivas",
     role: "Líder de Página Web",
     descripcion:
-      "Líder de desarrollo de la página web, encargado de la planificación y mantenimiento del sitio web oficial de TAWS.",
+      "Encargado de la planificación y mantenimiento del sitio web oficial de TAWS.",
     img: images.webpage,
   },
 ];
