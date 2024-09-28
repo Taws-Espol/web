@@ -7,9 +7,7 @@ import "./index.css";
 import Members from "./pages/members/Members";
 import About from "./pages/about/About";
 import Activities from "./pages/activities/Activities";
-import { Route } from "react-router-dom";
-import { Router } from "react-router-dom";
-import { Routes } from "react-router-dom";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 function Home() {
   return (
@@ -27,14 +25,14 @@ function Home() {
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/miembros" element={<Members />} />
           <Route path="/eventos" element={<Activities />} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </>
   );
 }
