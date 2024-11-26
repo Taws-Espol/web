@@ -4,6 +4,10 @@
       "year": 2024,
       "achievements": [
         {
+          "title": "Nasa Space Apps Challenge GYE 2024",
+          "description": "El equipo conformado por Jorge Apolo, Erick Lorenzo, Roberto Patiño, Braulio Rivas, Luis Romero y Angelo Zurita logró 3er lugar en el Hackathon Nasa Space Apps Challange 2024 en Guayaquil"
+        },
+        {
           "title": "Google Summer of Code",
           "description": "Braulio Rivas participó en el Google Summer of Code 2024 bajo la organización CERN-HSF."
         }
