@@ -28,13 +28,6 @@ export const events = [
     img: nosystemissafe,
   },
   {
-    name: "Taws y Fundación Sánchez Aguilar",
-    date: "2024-10-29",
-    description:
-      "Impactando vidas a través de la educación en tecnología! El Club TAWS se unió a la Fundación Sánchez Aguilar para llevar conocimientos de Machine Learning y Ciencia de Datos a niños talentosos. Nuestros voluntarios compartieron su pasión por la tecnología y guiaron a los niños en actividades y proyectos prácticos.",
-    img: fundacion,
-  },
-  {
     name: "IEEEXtreme 2024",
     date: "2024-10-26",
     description:
@@ -48,6 +41,14 @@ export const events = [
       "Los miembros del Club TAWS tuvieron una activa participación en el Innova LATAM, la plataforma líder en innovación empresarial en América Latina. Nuestros representantes se sumergieron en una experiencia enriquecedora, descubriendo las últimas tendencias y herramientas en innovación y aprendiendo de las mejores prácticas de empresas exitosas.",
     img: innovat,
   },
+  {
+    name: "Taws y Fundación Sánchez Aguilar",
+    date: "2024-10-05",
+    description:
+      "Impactando vidas a través de la educación en tecnología! El Club TAWS se unió a la Fundación Sánchez Aguilar para llevar conocimientos de Machine Learning y Ciencia de Datos a niños talentosos. Nuestros voluntarios compartieron su pasión por la tecnología y guiaron a los niños en actividades y proyectos prácticos.",
+    img: fundacion,
+  },
+
   {
     name: "Inducción a Novatos 2024-2S",
     date: "2024-09-25",
