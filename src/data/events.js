@@ -28,7 +28,7 @@ export const events = [
   },
   {
     name: "Innova-T Latam",
-    date: "2024-11-05",
+    date: "2024-10-15",
     description:
       "Los miembros del Club TAWS tuvieron una activa participación en el Innova LATAM, la plataforma líder en innovación empresarial en América Latina. Nuestros representantes se sumergieron en una experiencia enriquecedora, descubriendo las últimas tendencias y herramientas en innovación y aprendiendo de las mejores prácticas de empresas exitosas.",
     img: innovat,
