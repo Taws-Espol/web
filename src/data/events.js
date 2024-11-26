@@ -56,7 +56,7 @@ export const events = [
   },
   {
     name: "Feria de Carreras 2024",
-    date: "2024-09-11",
+    date: "2024-09-06",
     description:
       "Taws estuvo presente en la Feria de Carreras de 2024 en Espol, donde representó a la carrera de Computación, presentado proyectos y experiencia de los estudiantes.",
     img: feriaDeCarreras,
