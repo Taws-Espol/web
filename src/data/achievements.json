@@ -23,16 +23,11 @@
       "achievements": [
         {
           "title": "Google Summer of Code",
-          "description": "Jose Siguenza logró entrar al programa de código abierto, Google Summer of Code 2022."
-        }
-      ]
-    },
-    {
-      "year": "2022",
-      "achievements": [
+          "description": "José Siguenza logró entrar al programa de código abierto, Google Summer of Code 2022."
+        },
         {
           "title": "CERN",
-          "description": "Enmanuel Magallanes y María Belen participaron en el CERN (Organización Europea para la Investigación Nuclear)."
+          "description": "Enmanuel Magallanes y María Belén Guaranda participaron en una pasantía en el CERN (Organización Europea para la Investigación Nuclear)."
         }
       ]
     },
