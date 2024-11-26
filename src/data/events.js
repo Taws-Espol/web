@@ -27,13 +27,6 @@ export const events = [
     img: nosystemissafe,
   },
   {
-    name: "Innova-T Latam",
-    date: "2024-10-15",
-    description:
-      "Los miembros del Club TAWS tuvieron una activa participación en el Innova LATAM, la plataforma líder en innovación empresarial en América Latina. Nuestros representantes se sumergieron en una experiencia enriquecedora, descubriendo las últimas tendencias y herramientas en innovación y aprendiendo de las mejores prácticas de empresas exitosas.",
-    img: innovat,
-  },
-  {
     name: "Taws y Fundación Sánchez Aguilar",
     date: "2024-10-29",
     description:
@@ -47,7 +40,13 @@ export const events = [
       "Nuestros talentosos miembros participaron en el desafío global de programación #IEEEXtreme, organizado por la IEEE. Durante 24 horas intensas, compitieron contra otros estudiantes para resolver problemas de programación desafiantes.",
     img: ieeextreme,
   },
-
+  {
+    name: "Innova-T Latam",
+    date: "2024-10-15",
+    description:
+      "Los miembros del Club TAWS tuvieron una activa participación en el Innova LATAM, la plataforma líder en innovación empresarial en América Latina. Nuestros representantes se sumergieron en una experiencia enriquecedora, descubriendo las últimas tendencias y herramientas en innovación y aprendiendo de las mejores prácticas de empresas exitosas.",
+    img: innovat,
+  },
   {
     name: "Inducción a Novatos 2024-2S",
     date: "2024-09-25",
