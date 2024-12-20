@@ -18,7 +18,6 @@ export const events = [
     description:
       'No System Is Safe presenta CTF (Capture The Flag) donde decenas de personas pondrán a prueba sus habilidades en ciberseguridad aprendidas a lo largo de los talleres dados en No System is Safe. ¿Qué es un CTF? Es un desafío en el que los participantes deben resolver problemas y retos de seguridad para obtener "flags" y demostrar su dominio en la ciberseguridad.',
     img: ctf,
-    soon: true,
   },
   {
     name: "No System is Safe",

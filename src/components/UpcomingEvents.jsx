@@ -3,6 +3,12 @@ import { events } from "../data/events.js";
 import { EventCard } from "./EventList.jsx";
 
 export function UpcomingEvents() {
+  const show = events.some((event) => event.soon);
+
+  if (!show) {
+    return <></>;
+  }
+
   return (
     <section>
       <h1 className="text-tawsBlue font-semibold text-4xl mt-24 mb-4">
