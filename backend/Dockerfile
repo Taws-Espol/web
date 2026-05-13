@@ -11,4 +11,4 @@ RUN deno cache src/main.ts
 
 EXPOSE 8000
 
-CMD ["deno", "task", "start"]
+CMD ["sh", "-c", "deno task db:push && deno task start"]
